@@ -12,7 +12,7 @@ Each year, the City of Göteborg publishes PDF survey results for every preschoo
 
 - **Scraped data** from all 11 administrative areas (~300 main preschools, 2026)
 - **SQLite database** (`surveys.db`) with response rates, scores, and geocoded coordinates
-- **Standalone map** (`preschool_map_2026.html`) — a single file with embedded data + Leaflet map
+- **Standalone map** (`docs/preschool_map_2026.html`) — a single file with embedded data + Leaflet map
 - **CLI tool** for ranking, filtering, and exporting
 
 ---
@@ -55,7 +55,7 @@ scripts\build_map.bat
 
 Open the artifact:
 ```bash
-firefox preschool_map_2026.html
+firefox docs/preschool_map_2026.html
 ```
 
 ---
@@ -92,7 +92,7 @@ python build_map.py
 
 ## The map artifact
 
-`preschool_map_2026.html` is a **build artifact** — it is generated from `surveys.db` and should not be edited by hand.
+`docs/preschool_map_2026.html` is a **build artifact** — it is generated from `surveys.db` and should not be edited by hand.
 
 - It is a **single self-contained HTML file** (~200–600 KB)
 - It embeds all preschool data as JSON and loads Leaflet from CDN

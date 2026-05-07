@@ -10,7 +10,7 @@ if not exist "%VENV%" (
     exit /b 1
 )
 
-echo Building preschool_map_2026.html...
+echo Building docs\preschool_map_2026.html...
 "%VENV%\Scripts\python" build_map.py
 
-echo Done. Open preschool_map_2026.html in your browser.
+echo Done. Open docs\preschool_map_2026.html in your browser.
