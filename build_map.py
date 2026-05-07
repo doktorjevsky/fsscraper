@@ -4,7 +4,7 @@ import json
 import sqlite3
 
 DB_PATH = "surveys.db"
-OUTPUT_PATH = "map.html"
+OUTPUT_PATH = "preschool_map_2026.html"
 
 # Order categories as they appear in the PDF summary
 CATEGORY_ORDER = [
