@@ -26,7 +26,7 @@
   <div class="attribution">Kartdata © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> · extract BBBike</div>
   <script>
     const schools=SCHOOL_DATA;
-    const addressData=ADDRESS_DATA;
+    let addressData=ADDRESS_DATA;
     const mapWidth=MAP_WIDTH;
     const mapHeight=MAP_HEIGHT;
     const bounds={minLon:MAP_MIN_LON,minLat:MAP_MIN_LAT,maxLon:MAP_MAX_LON,maxLat:MAP_MAX_LAT};
@@ -110,12 +110,17 @@
     let minimumResponse=0;
     let locationMessageTimer;
     let addressSearchTimer;
+    let addressDataPromise;
     let localAddresses=null;
     let exactAddresses=null;
     const formatRadius=value=>!value?'Alla':value<1?`${Math.round(value*1000)} m`:`${String(Number(value.toFixed(2))).replace('.',',')} km`;
     const normalizeAddress=value=>value.toLocaleLowerCase('sv-SE').normalize('NFKC').split(',')[0].replace(/\b\d{3}\s?\d{2}\b/g,' ').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
-    function ensureAddressIndex(){
+    async function ensureAddressIndex(){
       if(localAddresses)return;
+      if(!addressData){
+        addressDataPromise??=fetch('addresses.json').then(response=>{if(!response.ok)throw new Error(`Kunde inte läsa adresser (${response.status})`);return response.json()});
+        addressData=await addressDataPromise;
+      }
       localAddresses=addressData.addresses.map(([streetId,number,lng,lat])=>{const label=`${addressData.streets[streetId]} ${number}`;return{key:normalizeAddress(label),label,lng,lat}});
       exactAddresses=new Map(localAddresses.map(address=>[address.key,address]));
     }
@@ -131,7 +136,7 @@
     }
     locationButton.onclick=()=>{addressPanel.classList.remove('open');addressToggle.setAttribute('aria-expanded','false');requestLocation()};
     addressToggle.setAttribute('aria-expanded','false');
-    addressToggle.onclick=()=>{const open=!addressPanel.classList.contains('open');addressPanel.classList.toggle('open',open);addressToggle.setAttribute('aria-expanded',String(open));locationMessage.classList.remove('visible');if(open){ensureAddressIndex();addressInput.focus()}};
+    addressToggle.onclick=async()=>{const open=!addressPanel.classList.contains('open');addressPanel.classList.toggle('open',open);addressToggle.setAttribute('aria-expanded',String(open));locationMessage.classList.remove('visible');if(open){renderAddressResults([],'Läser in adresser…');try{await ensureAddressIndex();if(addressPanel.classList.contains('open')){addressResults.replaceChildren();addressInput.focus()}}catch(error){renderAddressResults([],error.message)}}};
     function selectAddress(address){addressInput.value=address.label;addressPanel.classList.remove('open');addressToggle.setAttribute('aria-expanded','false');useMapLocation(address.lat,address.lng,address.label,`Utgångspunkt: ${address.label}.`)}
     function renderAddressResults(matches,message=''){
       addressResults.replaceChildren();
@@ -144,10 +149,10 @@
       matches.sort((a,b)=>a.rank-b.rank||a.address.label.localeCompare(b.address.label,'sv'));
       return matches.slice(0,8).map(match=>match.address);
     }
-    function suggestAddresses(){ensureAddressIndex();const query=normalizeAddress(addressInput.value);if(query.length<3){addressResults.replaceChildren();return}const matches=findAddressMatches(query);renderAddressResults(matches,matches.length?'':'Ingen adress hittades i kartområdet.')}
-    addressInput.addEventListener('input',()=>{clearTimeout(addressSearchTimer);addressSearchTimer=setTimeout(suggestAddresses,100)});
-    addressForm.addEventListener('submit',event=>{
-      event.preventDefault();ensureAddressIndex();const query=normalizeAddress(addressInput.value);
+    async function suggestAddresses(){await ensureAddressIndex();const query=normalizeAddress(addressInput.value);if(query.length<3){addressResults.replaceChildren();return}const matches=findAddressMatches(query);renderAddressResults(matches,matches.length?'':'Ingen adress hittades i kartområdet.')}
+    addressInput.addEventListener('input',()=>{clearTimeout(addressSearchTimer);addressSearchTimer=setTimeout(()=>suggestAddresses().catch(error=>renderAddressResults([],error.message)),100)});
+    addressForm.addEventListener('submit',async event=>{
+      event.preventDefault();try{await ensureAddressIndex()}catch(error){renderAddressResults([],error.message);return}const query=normalizeAddress(addressInput.value);
       if(query.length<3){renderAddressResults([],'Skriv minst tre tecken.');return}
       const exact=exactAddresses.get(query);if(exact){selectAddress(exact);return}
       const matches=findAddressMatches(query);renderAddressResults(matches,matches.length?'':'Ingen adress hittades i kartområdet.');

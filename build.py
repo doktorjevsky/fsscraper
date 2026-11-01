@@ -10,7 +10,9 @@ from urllib.parse import quote
 DATA = Path("data/schools.json")
 BASEMAP = Path("data/basemap.json")
 ADDRESSES = Path("data/addresses.json")
-OUTPUTS = (Path("public/index.html"), Path("public/map.html"), Path("docs/index.html"))
+WEB_OUTPUTS = (Path("public/index.html"), Path("docs/index.html"))
+OFFLINE_OUTPUT = Path("public/map.html")
+ADDRESS_OUTPUTS = (Path("public/addresses.json"), Path("docs/addresses.json"))
 SURVEY_ROOT = "2026\\UTBILDNING_Föräldrar och barn om förskolan"
 
 
@@ -82,12 +84,19 @@ def build():
         .replace("BASEMAP_SVG", "".join(geometry))
         .replace("MARKERS_SVG", "".join(markers))
         .replace("SCHOOL_DATA", json.dumps(schools, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
-        .replace("ADDRESS_DATA", json.dumps(addresses, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
     )
-    for output in OUTPUTS:
+    web_document = document.replace("ADDRESS_DATA", "null")
+    offline_document = document.replace("ADDRESS_DATA", json.dumps(addresses, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
+    for output in WEB_OUTPUTS:
         output.parent.mkdir(exist_ok=True)
-        output.write_text(document, encoding="utf-8")
-    print(f"Wrote {', '.join(map(str, OUTPUTS))} with {len(schools)} pre-rendered schools.")
+        output.write_text(web_document, encoding="utf-8")
+    OFFLINE_OUTPUT.parent.mkdir(exist_ok=True)
+    OFFLINE_OUTPUT.write_text(offline_document, encoding="utf-8")
+    address_payload = ADDRESSES.read_text(encoding="utf-8")
+    for output in ADDRESS_OUTPUTS:
+        output.parent.mkdir(exist_ok=True)
+        output.write_text(address_payload, encoding="utf-8")
+    print(f"Wrote {', '.join(map(str, WEB_OUTPUTS))} plus {OFFLINE_OUTPUT} with {len(schools)} pre-rendered schools.")
 
 
 if __name__ == "__main__":
