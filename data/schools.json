@@ -1,0 +1,2810 @@
+[
+  {
+    "name": "Borgaregatan 5 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7149913,
+    "lng": 11.9996519,
+    "score": 4.27,
+    "response_rate": 48,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Borgaregatan%205%20f%C3%B6rskola/Borgaregatan%205%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Bromeliusgatan 12 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7199306,
+    "lng": 12.0267388,
+    "score": 4.47,
+    "response_rate": 58,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Bromeliusgatan%2012%20f%C3%B6rskola/Bromeliusgatan%2012%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Burås Kyrkbacke 3 förskola",
+    "area": "Centrum 1",
+    "lat": 57.6810048,
+    "lng": 11.9895335,
+    "score": 4.52,
+    "response_rate": 71,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Bur%C3%A5s%20Kyrkbacke%203%20f%C3%B6rskola/Bur%C3%A5s%20Kyrkbacke%203%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Doktor Allards Gata 60 förskola",
+    "area": "Centrum 1",
+    "lat": 57.6783568,
+    "lng": 11.9716348,
+    "score": 4.36,
+    "response_rate": 55,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Doktor%20Allards%20Gata%2060%20f%C3%B6rskola/Doktor%20Allards%20Gata%2060%20f%C3%B6rskola%20.pdf"
+  },
+  {
+    "name": "Doktor Sydows Gata 44 förskola",
+    "area": "Centrum 1",
+    "lat": 57.678995,
+    "lng": 11.9782378,
+    "score": 4.5,
+    "response_rate": 33,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Doktor%20Sydows%20Gata%2044%20f%C3%B6rskola/Doktor%20Sydows%20Gata%2044%20f%C3%B6rskola%20U.pdf"
+  },
+  {
+    "name": "Falkgatan 5 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7183987,
+    "lng": 12.0032445,
+    "score": 4.37,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Falkgatan%205%20f%C3%B6rskola/Falkgatan%205%20f%C3%B6rskola%20Uppskalning.pdf"
+  },
+  {
+    "name": "Framnäsgatan 16 förskola",
+    "area": "Centrum 1",
+    "lat": 57.683377,
+    "lng": 11.9928847,
+    "score": 4.74,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Framn%C3%A4sgatan%2016%20f%C3%B6rskola/Framn%C3%A4sgatan%2016%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Friggagatan 3 B förskola",
+    "area": "Centrum 1",
+    "lat": 57.7109468,
+    "lng": 11.9874466,
+    "score": 4.38,
+    "response_rate": 59,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Friggagatan%203%20B%20f%C3%B6rskola/Friggagatan%203%20B%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Fräntorpsgatan 57 förskola",
+    "area": "Centrum 1",
+    "lat": 57.726687,
+    "lng": 12.0517936,
+    "score": 4.5,
+    "response_rate": 64,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Fr%C3%A4ntorpsgatan%2057%20f%C3%B6rskola/Fr%C3%A4ntorpsgatan%2057%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Färgaregatan 7 förskola",
+    "area": "Centrum 1",
+    "lat": 57.708386,
+    "lng": 11.9828172,
+    "score": 4.0,
+    "response_rate": 50,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/F%C3%A4rgaregatan%207%20f%C3%B6rskola/F%C3%A4rgaregatan%207%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Gibraltarkroken 4 förskola",
+    "area": "Centrum 1",
+    "lat": 57.682429,
+    "lng": 11.9857266,
+    "score": 4.35,
+    "response_rate": 57,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Gibraltarkroken%204%20f%C3%B6rskola/Gibraltarkroken%204%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Glasmästaregatan 2 förskola",
+    "area": "Centrum 1",
+    "lat": 57.6813793,
+    "lng": 11.9910684,
+    "score": 2.92,
+    "response_rate": 81,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Glasm%C3%A4staregatan%202%20f%C3%B6rskola/Glasm%C3%A4staregatan%202%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Glasmästaregatan 6 E förskola",
+    "area": "Centrum 1",
+    "lat": 57.6813793,
+    "lng": 11.9910684,
+    "score": 3.63,
+    "response_rate": 62,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Glasm%C3%A4staregatan%206%20E%20f%C3%B6rskola/Glasm%C3%A4staregatan%206%20E%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Gunn Wållgrensgata 3B förskola",
+    "area": "Centrum 1",
+    "lat": 57.7000264,
+    "lng": 12.0184157,
+    "score": 4.67,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Gunn%20W%C3%A5llgrensgata%203B%20f%C3%B6rskola/Gunn%20W%C3%A5llgrensgata%203B%20f%C3%B6rskola%20U.pdf"
+  },
+  {
+    "name": "Hackspettsgatan 1-7 förskola",
+    "area": "Centrum 1",
+    "lat": 57.6891202,
+    "lng": 12.009782,
+    "score": 4.36,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Hackspettsgatan%201-7%20f%C3%B6rskola/Hackspettsgatan%201-7%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Hallandsgatan 7 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7024489,
+    "lng": 11.9822915,
+    "score": 4.0,
+    "response_rate": 38,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Hallandsgatan%207%20f%C3%B6rskola/Hallandsgatan%207%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Häcklöparegatan 3 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7066207,
+    "lng": 11.9993703,
+    "score": 4.77,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/H%C3%A4ckl%C3%B6paregatan%203%20f%C3%B6rskola/H%C3%A4ckl%C3%B6paregatan%203%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Karlagatan 10 B förskola",
+    "area": "Centrum 1",
+    "lat": 57.712615,
+    "lng": 12.0042522,
+    "score": 4.71,
+    "response_rate": 57,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Karlagatan%2010%20B%20f%C3%B6rskola/Karlagatan%2010%20B%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Kobergsgatan 32 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7202157,
+    "lng": 12.015104,
+    "score": 4.41,
+    "response_rate": 77,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Kobergsgatan%2032%20f%C3%B6rskola/Kobergsgatan%2032%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Kärralundsgatan 11 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7109775,
+    "lng": 12.0178171,
+    "score": 4.45,
+    "response_rate": 48,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/K%C3%A4rralundsgatan%2011%20f%C3%B6rskola/K%C3%A4rralundsgatan%2011%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Kärralundsgatan 19 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7078305,
+    "lng": 12.0138273,
+    "score": 3.93,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/K%C3%A4rralundsgatan%2019%20f%C3%B6rskola/K%C3%A4rralundsgatan%2019%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Landerigatan 11 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7189916,
+    "lng": 12.0123199,
+    "score": 4.6,
+    "response_rate": 68,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Landerigatan%2011%20f%C3%B6rskola/Landerigatan%2011%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Landerigatan 17 A förskola",
+    "area": "Centrum 1",
+    "lat": 57.7219259,
+    "lng": 12.0119171,
+    "score": 4.57,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Landerigatan%2017%20A%20f%C3%B6rskola/Landerigatan%2017%20A%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Lasarettsgatan 7 A förskola",
+    "area": "Centrum 1",
+    "lat": 57.7038023,
+    "lng": 11.9578806,
+    "score": 4.56,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Lasarettsgatan%207%20A%20f%C3%B6rskola/Lasarettsgatan%207%20A%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Lennart Torstenssonsgatan 11 förskola",
+    "area": "Centrum 1",
+    "lat": 57.693648,
+    "lng": 11.9821816,
+    "score": 4.47,
+    "response_rate": 61,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Lennart%20Torstenssonsgatan%2011%20f%C3%B6rskola/Lennart%20Torstenssonsgatan%2011%20f%C3%B6r.pdf"
+  },
+  {
+    "name": "Levgrensvägen 3 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7045075,
+    "lng": 11.9857573,
+    "score": 4.46,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Levgrensv%C3%A4gen%203%20f%C3%B6rskola/Levgrensv%C3%A4gen%203%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Ljusstöparegatan 1 A förskola",
+    "area": "Centrum 1",
+    "lat": 57.6872286,
+    "lng": 11.9877996,
+    "score": 4.67,
+    "response_rate": 42,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Ljusst%C3%B6paregatan%201%20A%20f%C3%B6rskola/Ljusst%C3%B6paregatan%201%20A%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Morängatan 9 och 18 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7207689,
+    "lng": 12.0171529,
+    "score": 4.29,
+    "response_rate": 75,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Mor%C3%A4ngatan%209%20och%2018%20f%C3%B6rskola/Mor%C3%A4ngatan%209%20och%2018%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Mölndalsvägen 29 förskola",
+    "area": "Centrum 1",
+    "lat": 57.6883483,
+    "lng": 11.9950284,
+    "score": 4.23,
+    "response_rate": 48,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/M%C3%B6lndalsv%C3%A4gen%2029%20f%C3%B6rskola/M%C3%B6lndalsv%C3%A4gen%2029%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Nedre Kvarnbergsgatan 17 förskola",
+    "area": "Centrum 1",
+    "lat": 57.707979,
+    "lng": 11.9643744,
+    "score": 3.43,
+    "response_rate": 41,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Nedre%20Kvarnbergsgatan%2017%20f%C3%B6rskola/Nedre%20Kvarnbergsgatan%2017%20f%C3%B6rskol.pdf"
+  },
+  {
+    "name": "Omvägen 2F förskola",
+    "area": "Centrum 1",
+    "lat": 57.6866708,
+    "lng": 12.008131,
+    "score": 4.33,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Omv%C3%A4gen%202F%20f%C3%B6rskola/Omv%C3%A4gen%202F%20f%C3%B6rskola%20Uppskalning%20.pdf"
+  },
+  {
+    "name": "Paviljongvägen 82 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7124374,
+    "lng": 12.0355013,
+    "score": 4.6,
+    "response_rate": 58,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Paviljongv%C3%A4gen%2082%20f%C3%B6rskola/Paviljongv%C3%A4gen%2082%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Prästgårdsgatan 44 B förskola",
+    "area": "Centrum 1",
+    "lat": 57.7046342,
+    "lng": 12.0097447,
+    "score": 3.88,
+    "response_rate": 55,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Pr%C3%A4stg%C3%A5rdsgatan%2044%20B%20f%C3%B6rskola/Pr%C3%A4stg%C3%A5rdsgatan%2044%20B%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Rudedammsgatan 6 B förskola",
+    "area": "Centrum 1",
+    "lat": 57.6893273,
+    "lng": 11.9910431,
+    "score": 4.29,
+    "response_rate": 47,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Rudedammsgatan%206%20B%20f%C3%B6rskola/Rudedammsgatan%206%20B%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Skillnadsgatan 36 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7054317,
+    "lng": 12.0152269,
+    "score": 4.7,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Skillnadsgatan%2036%20f%C3%B6rskola/Skillnadsgatan%2036%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Skillnadsgatan 41 förskola",
+    "area": "Centrum 1",
+    "lat": 57.704968,
+    "lng": 12.0137286,
+    "score": 4.77,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Skillnadsgatan%2041%20f%C3%B6rskola/Skillnadsgatan%2041%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Skogshyddegatan 23 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7058864,
+    "lng": 11.9995603,
+    "score": 4.83,
+    "response_rate": 75,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Skogshyddegatan%2023%20f%C3%B6rskola/Skogshyddegatan%2023%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Skånegatan 18 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7015915,
+    "lng": 11.9861358,
+    "score": 4.12,
+    "response_rate": 64,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Sk%C3%A5negatan%2018%20f%C3%B6rskola/Sk%C3%A5negatan%2018%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Smörgatan 80 förskola",
+    "area": "Centrum 1",
+    "lat": 57.6821322,
+    "lng": 12.0126589,
+    "score": 4.11,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Sm%C3%B6rgatan%2080%20f%C3%B6rskola/Sm%C3%B6rgatan%2080%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Smörslätten 1 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7200569,
+    "lng": 12.0559683,
+    "score": 4.15,
+    "response_rate": 42,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Sm%C3%B6rsl%C3%A4tten%201%20f%C3%B6rskola/Sm%C3%B6rsl%C3%A4tten%201%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Studiegången 1 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7141345,
+    "lng": 12.0391213,
+    "score": 4.15,
+    "response_rate": 47,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Studieg%C3%A5ngen%201%20f%C3%B6rskola/Studieg%C3%A5ngen%201%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Svensksundsgatan 2 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7118129,
+    "lng": 12.0049809,
+    "score": 4.76,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Svensksundsgatan%202%20f%C3%B6rskola/Svensksundsgatan%202%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Syster Ainas Gata 2 förskola",
+    "area": "Centrum 1",
+    "lat": 57.684065,
+    "lng": 11.9747221,
+    "score": 4.43,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Syster%20Ainas%20Gata%202%20f%C3%B6rskola/Syster%20Ainas%20Gata%202%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Torpagatan 20 A förskola",
+    "area": "Centrum 1",
+    "lat": 57.7182502,
+    "lng": 12.0353337,
+    "score": 4.22,
+    "response_rate": 29,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Torpagatan%2020%20A%20f%C3%B6rskola/Torpagatan%2020%20A%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Torpagatan 32 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7186116,
+    "lng": 12.0372429,
+    "score": 4.23,
+    "response_rate": 71,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Torpagatan%2032%20f%C3%B6rskola/Torpagatan%2032%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Torpagatan 38 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7182078,
+    "lng": 12.038257,
+    "score": 4.17,
+    "response_rate": 46,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Torpagatan%2038%20f%C3%B6rskola/Torpagatan%2038%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Torpagatan 50 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7202719,
+    "lng": 12.0456537,
+    "score": 4.24,
+    "response_rate": 64,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Torpagatan%2050%20f%C3%B6rskola/Torpagatan%2050%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Uddevallagatan 16 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7189348,
+    "lng": 12.0086712,
+    "score": 4.05,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Uddevallagatan%2016%20f%C3%B6rskola/Uddevallagatan%2016%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Valhallagatan 4 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7004966,
+    "lng": 11.9887281,
+    "score": 4.47,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Valhallagatan%204%20f%C3%B6rskola/Valhallagatan%204%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Virginsgatan 19 förskola",
+    "area": "Centrum 1",
+    "lat": 57.7110366,
+    "lng": 12.0279107,
+    "score": 4.5,
+    "response_rate": 52,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%201/Virginsgatan%2019%20f%C3%B6rskola/Virginsgatan%2019%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Albotorget 5 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6924185,
+    "lng": 11.9587134,
+    "score": 4.27,
+    "response_rate": 88,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Albotorget%205%20f%C3%B6rskola/Albotorget%205%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Allmänna Vägen 40 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6956564,
+    "lng": 11.9256866,
+    "score": 4.68,
+    "response_rate": 76,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Allm%C3%A4nna%20V%C3%A4gen%2040%20f%C3%B6rskola/Allm%C3%A4nna%20V%C3%A4gen%2040%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Bankebergsgatan 5 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6840988,
+    "lng": 11.9147186,
+    "score": 4.76,
+    "response_rate": 85,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Bankebergsgatan%205%20f%C3%B6rskola/Bankebergsgatan%205%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Daniel Petterssons Gata 6 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6906883,
+    "lng": 11.9651993,
+    "score": 4.85,
+    "response_rate": 48,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Daniel%20Petterssons%20Gata%206%20f%C3%B6rskola/Daniel%20Petterssons%20Gata%206%20f%C3%B6rsko.pdf"
+  },
+  {
+    "name": "Djurgårdsgatan 29 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6964537,
+    "lng": 11.9324087,
+    "score": 4.8,
+    "response_rate": 53,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Djurg%C3%A5rdsgatan%2029%20f%C3%B6rskola/Djurg%C3%A5rdsgatan%2029%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Doktor Håléns Gata 11 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6814337,
+    "lng": 11.9727236,
+    "score": 4.67,
+    "response_rate": 37,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Doktor%20H%C3%A5l%C3%A9ns%20Gata%2011%20f%C3%B6rskola/Doktor%20H%C3%A5l%C3%A9ns%20Gata%2011%20f%C3%B6rskola%20U.pdf"
+  },
+  {
+    "name": "Folke Bernadottes Gata 4 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6949769,
+    "lng": 11.9628006,
+    "score": 4.43,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Folke%20Bernadottes%20Gata%204%20f%C3%B6rskola/Folke%20Bernadottes%20Gata%204%20f%C3%B6rskol.pdf"
+  },
+  {
+    "name": "Gibraltargatan 29 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6920291,
+    "lng": 11.9779061,
+    "score": 4.63,
+    "response_rate": 64,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Gibraltargatan%2029%20f%C3%B6rskola/Gibraltargatan%2029%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Haga Nygata 17 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6983176,
+    "lng": 11.9567393,
+    "score": 4.08,
+    "response_rate": 28,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Haga%20Nygata%2017%20f%C3%B6rskola/Haga%20Nygata%2017%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Jungmansgatan 45 B förskola",
+    "area": "Centrum 2",
+    "lat": 57.692121,
+    "lng": 11.9468574,
+    "score": 4.33,
+    "response_rate": 59,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Jungmansgatan%2045%20B%20f%C3%B6rskola/Jungmansgatan%2045%20B%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Jungmansgatan 65 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6908305,
+    "lng": 11.9461307,
+    "score": 4.5,
+    "response_rate": 47,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Jungmansgatan%2065%20f%C3%B6rskola/Jungmansgatan%2065%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Kapellgången 8 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6921954,
+    "lng": 11.9725466,
+    "score": 4.17,
+    "response_rate": 30,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Kapellg%C3%A5ngen%208%20f%C3%B6rskola/Kapellg%C3%A5ngen%208%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Karl Johansgatan 50 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6960892,
+    "lng": 11.9247096,
+    "score": 4.74,
+    "response_rate": 62,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Karl%20Johansgatan%2050%20f%C3%B6rskola/Karl%20Johansgatan%2050%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Kennedygatan 1 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6848801,
+    "lng": 11.9163576,
+    "score": 4.07,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Kennedygatan%201%20f%C3%B6rskola/Kennedygatan%201%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Kompassgatan 11 förskola",
+    "area": "Centrum 2",
+    "lat": 57.694676,
+    "lng": 11.9408555,
+    "score": 4.83,
+    "response_rate": 73,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Kompassgatan%2011%20f%C3%B6rskola/Kompassgatan%2011%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Leijonsparres Väg 3 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6955836,
+    "lng": 11.9538828,
+    "score": 4.55,
+    "response_rate": 52,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Leijonsparres%20V%C3%A4g%203%20f%C3%B6rskola/Leijonsparres%20V%C3%A4g%203%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Lillängsgatan 6 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6774264,
+    "lng": 11.9438024,
+    "score": 4.33,
+    "response_rate": 60,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Lill%C3%A4ngsgatan%206%20f%C3%B6rskola/Lill%C3%A4ngsgatan%206%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Malmstensgatan 6 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6937323,
+    "lng": 11.9674013,
+    "score": 4.83,
+    "response_rate": 43,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Malmstensgatan%206%20f%C3%B6rskola/Malmstensgatan%206%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Mariebergsgatan 7 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6949045,
+    "lng": 11.9227341,
+    "score": 4.25,
+    "response_rate": 69,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Mariebergsgatan%207%20f%C3%B6rskola/Mariebergsgatan%207%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Molinsgatan 23 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6941751,
+    "lng": 11.9738146,
+    "score": 4.0,
+    "response_rate": 50,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Molinsgatan%2023%20f%C3%B6rskola/Molinsgatan%2023%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Nordostpassagen 17 förskola",
+    "area": "Centrum 2",
+    "lat": 57.695246,
+    "lng": 11.9472827,
+    "score": 3.94,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Nordostpassagen%2017%20f%C3%B6rskola/Nordostpassagen%2017%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Nordostpassagen 61 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6918456,
+    "lng": 11.9474136,
+    "score": 4.13,
+    "response_rate": 67,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Nordostpassagen%2061%20f%C3%B6rskola/Nordostpassagen%2061%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Orrspelsgatan 16 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6838031,
+    "lng": 11.9810034,
+    "score": 4.53,
+    "response_rate": 61,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Orrspelsgatan%2016%20f%C3%B6rskola/Orrspelsgatan%2016%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Risåsgatan 7 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6949262,
+    "lng": 11.9556946,
+    "score": 4.75,
+    "response_rate": 82,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Ris%C3%A5sgatan%207%20f%C3%B6rskola/Ris%C3%A5sgatan%207%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Rosengatan 6 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6909096,
+    "lng": 11.9493009,
+    "score": 4.76,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Rosengatan%206%20f%C3%B6rskola/Rosengatan%206%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Rörmyren 9 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6791272,
+    "lng": 11.9281245,
+    "score": 4.29,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/R%C3%B6rmyren%209%20f%C3%B6rskola/R%C3%B6rmyren%209%20f%C3%B6rskola%20Uppskalning%20.pdf"
+  },
+  {
+    "name": "Seglaregatan 5 och 17 förskola",
+    "area": "Centrum 2",
+    "lat": 57.691771,
+    "lng": 11.9187388,
+    "score": 3.96,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Seglaregatan%205%20och%2017%20f%C3%B6rskola/Seglaregatan%205%20och%2017%20f%C3%B6rskola%20U.pdf"
+  },
+  {
+    "name": "Seminariegatan 5 och 7 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6917791,
+    "lng": 11.9560592,
+    "score": 3.96,
+    "response_rate": 53,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Seminariegatan%205%20och%207%20f%C3%B6rskola/Seminariegatan%205%20och%207%20f%C3%B6rskola%20.pdf"
+  },
+  {
+    "name": "Skepparegången 1 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6974171,
+    "lng": 11.9405503,
+    "score": 4.29,
+    "response_rate": 52,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Skeppareg%C3%A5ngen%201%20f%C3%B6rskola/Skeppareg%C3%A5ngen%201%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Slottsskogsgatan 90 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6847031,
+    "lng": 11.9306674,
+    "score": 4.36,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Slottsskogsgatan%2090%20f%C3%B6rskola/Slottsskogsgatan%2090%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Spekebergsgatan 3 förskola",
+    "area": "Centrum 2",
+    "lat": 57.693671,
+    "lng": 11.960686,
+    "score": 4.37,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Spekebergsgatan%203%20f%C3%B6rskola/Spekebergsgatan%203%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Standargatan 10-12 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6931317,
+    "lng": 11.9283107,
+    "score": 4.52,
+    "response_rate": 64,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Standargatan%2010-12%20f%C3%B6rskola/Standargatan%2010-12%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Stortoppsgatan 2 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6898349,
+    "lng": 11.9220795,
+    "score": 4.13,
+    "response_rate": 46,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Stortoppsgatan%202%20f%C3%B6rskola/Stortoppsgatan%202%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Styrmansgatan 13 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6965035,
+    "lng": 11.9275462,
+    "score": 4.47,
+    "response_rate": 52,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Styrmansgatan%2013%20f%C3%B6rskola/Styrmansgatan%2013%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Styrmansgatan 21 A förskola",
+    "area": "Centrum 2",
+    "lat": 57.6959005,
+    "lng": 11.927817,
+    "score": 4.5,
+    "response_rate": 42,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Styrmansgatan%2021%20A%20f%C3%B6rskola/Styrmansgatan%2021%20A%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Svalebogatan 52 B förskola",
+    "area": "Centrum 2",
+    "lat": 57.6806415,
+    "lng": 11.9260652,
+    "score": 4.76,
+    "response_rate": 67,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Svalebogatan%2052%20B%20f%C3%B6rskola/Svalebogatan%2052%20B%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Svaleboskogen 7 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6771358,
+    "lng": 11.9236186,
+    "score": 4.78,
+    "response_rate": 65,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Svaleboskogen%207%20f%C3%B6rskola/Svaleboskogen%207%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Sveagatan 17 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6933739,
+    "lng": 11.9540713,
+    "score": 4.14,
+    "response_rate": 50,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Sveagatan%2017%20f%C3%B6rskola/Sveagatan%2017%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Sven Brolids väg 5-7 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6818091,
+    "lng": 11.9095048,
+    "score": 4.57,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Sven%20Brolids%20v%C3%A4g%205-7%20f%C3%B6rskola/Sven%20Brolids%20v%C3%A4g%205-7%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Säldammsbacken 11 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6845738,
+    "lng": 11.9378968,
+    "score": 4.17,
+    "response_rate": 63,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/S%C3%A4ldammsbacken%2011%20f%C3%B6rskola/S%C3%A4ldammsbacken%2011%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Såggatan 73 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6899125,
+    "lng": 11.9324617,
+    "score": 3.93,
+    "response_rate": 44,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/S%C3%A5ggatan%2073%20f%C3%B6rskola/S%C3%A5ggatan%2073%20f%C3%B6rskola%20Uppskalning.pdf"
+  },
+  {
+    "name": "Södra Viktoriagatan 45 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6926429,
+    "lng": 11.9678286,
+    "score": 4.52,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/S%C3%B6dra%20Viktoriagatan%2045%20f%C3%B6rskola/S%C3%B6dra%20Viktoriagatan%2045%20f%C3%B6rskola%20.pdf"
+  },
+  {
+    "name": "Vasa Kyrkogata 7 förskola",
+    "area": "Centrum 2",
+    "lat": 57.6965105,
+    "lng": 11.9716754,
+    "score": 4.72,
+    "response_rate": 72,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Centrum%202/Vasa%20Kyrkogata%207%20f%C3%B6rskola/Vasa%20Kyrkogata%207%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Arves Marias Väg 21 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7516561,
+    "lng": 11.9288035,
+    "score": 3.75,
+    "response_rate": 47,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Arves%20Marias%20V%C3%A4g%2021%20f%C3%B6rskola/Arves%20Marias%20V%C3%A4g%2021%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Björlanda Strand 5 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7615621,
+    "lng": 11.8322566,
+    "score": 4.85,
+    "response_rate": 59,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Bj%C3%B6rlanda%20Strand%205%20f%C3%B6rskola/Bj%C3%B6rlanda%20Strand%205%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Blåsvädersgatan 2 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7131356,
+    "lng": 11.8900528,
+    "score": 4.09,
+    "response_rate": 32,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Bl%C3%A5sv%C3%A4dersgatan%202%20f%C3%B6rskola/Bl%C3%A5sv%C3%A4dersgatan%202%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Byvädersgången 31 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7212236,
+    "lng": 11.8890476,
+    "score": 4.58,
+    "response_rate": 34,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Byv%C3%A4dersg%C3%A5ngen%2031%20f%C3%B6rskola/Byv%C3%A4dersg%C3%A5ngen%2031%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Emelie Lejmans Väg 5 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7557738,
+    "lng": 11.8333387,
+    "score": 4.58,
+    "response_rate": 58,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Emelie%20Lejmans%20V%C3%A4g%205%20f%C3%B6rskola/Emelie%20Lejmans%20V%C3%A4g%205%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Glöstorpsvägen 26 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7518565,
+    "lng": 11.9268863,
+    "score": 4.22,
+    "response_rate": 57,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Gl%C3%B6storpsv%C3%A4gen%2026%20f%C3%B6rskola/Gl%C3%B6storpsv%C3%A4gen%2026%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Grinnekullegatan 250 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7496089,
+    "lng": 11.9197812,
+    "score": 4.63,
+    "response_rate": 57,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Grinnekullegatan%20250%20f%C3%B6rskola/Grinnekullegatan%20250%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Hakefjordsgatan 119 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.720807,
+    "lng": 11.9004474,
+    "score": 4.12,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Hakefjordsgatan%20119%20f%C3%B6rskola/Hakefjordsgatan%20119%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Hällskriftsgatan 1 A förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7305949,
+    "lng": 11.9334477,
+    "score": 4.33,
+    "response_rate": 55,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/H%C3%A4llskriftsgatan%201%20A%20f%C3%B6rskola/H%C3%A4llskriftsgatan%201%20A%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Höstvädersgatan 51-57 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7156345,
+    "lng": 11.8913407,
+    "score": 4.57,
+    "response_rate": 67,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/H%C3%B6stv%C3%A4dersgatan%2051-57%20f%C3%B6rskola/H%C3%B6stv%C3%A4dersgatan%2051-57%20f%C3%B6rskola%20U.pdf"
+  },
+  {
+    "name": "Höstvädersgatan 73 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7195993,
+    "lng": 11.8930666,
+    "score": 4.52,
+    "response_rate": 43,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/H%C3%B6stv%C3%A4dersgatan%2073%20f%C3%B6rskola/H%C3%B6stv%C3%A4dersgatan%2073%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Korsklevegatan 1 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7190919,
+    "lng": 11.904348,
+    "score": 4.62,
+    "response_rate": 48,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Korsklevegatan%201%20f%C3%B6rskola/Korsklevegatan%201%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Lillebyvägen 9 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7394984,
+    "lng": 11.8022668,
+    "score": 4.27,
+    "response_rate": 46,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Lillebyv%C3%A4gen%209%20f%C3%B6rskola/Lillebyv%C3%A4gen%209%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Långströmsgatan 34 D förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7259917,
+    "lng": 11.9013213,
+    "score": 3.81,
+    "response_rate": 42,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/L%C3%A5ngstr%C3%B6msgatan%2034%20D%20f%C3%B6rskola/L%C3%A5ngstr%C3%B6msgatan%2034%20D%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Låssbyvägen 55 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.742289,
+    "lng": 11.8270251,
+    "score": 4.56,
+    "response_rate": 58,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/L%C3%A5ssbyv%C3%A4gen%2055%20f%C3%B6rskola/L%C3%A5ssbyv%C3%A4gen%2055%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Mildvädersgatan 3-7 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7162703,
+    "lng": 11.8923971,
+    "score": 4.48,
+    "response_rate": 77,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Mildv%C3%A4dersgatan%203-7%20f%C3%B6rskola/Mildv%C3%A4dersgatan%203-7%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Nolehultsvägen 15 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7569917,
+    "lng": 11.9291504,
+    "score": 4.46,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Nolehultsv%C3%A4gen%2015%20f%C3%B6rskola/Nolehultsv%C3%A4gen%2015%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Nolviksvägen 3 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7628395,
+    "lng": 11.8348487,
+    "score": 4.45,
+    "response_rate": 43,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Nolviksv%C3%A4gen%203%20f%C3%B6rskola/Nolviksv%C3%A4gen%203%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Runskriftsgatan 6 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7305247,
+    "lng": 11.7703975,
+    "score": 4.2,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Runskriftsgatan%206%20f%C3%B6rskola/Runskriftsgatan%206%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Taklöksvägen 1 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7306299,
+    "lng": 11.9381676,
+    "score": 4.32,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Takl%C3%B6ksv%C3%A4gen%201%20f%C3%B6rskola/Takl%C3%B6ksv%C3%A4gen%201%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Terapislingan 4 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7614742,
+    "lng": 11.9533529,
+    "score": 4.57,
+    "response_rate": 42,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Terapislingan%204%20f%C3%B6rskola/Terapislingan%204%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Toredalsgatan 41 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7236743,
+    "lng": 11.9166262,
+    "score": 4.38,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Toredalsgatan%2041%20f%C3%B6rskola/Toredalsgatan%2041%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Toredalsgatan 76 B förskola",
+    "area": "Hisingen 1",
+    "lat": 57.730193,
+    "lng": 11.9066859,
+    "score": 4.33,
+    "response_rate": 48,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Toredalsgatan%2076%20B%20f%C3%B6rskola/Toredalsgatan%2076%20B%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Torslanda Torg 8 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7242978,
+    "lng": 11.7658863,
+    "score": 4.4,
+    "response_rate": 44,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Torslanda%20Torg%208%20f%C3%B6rskola/Torslanda%20Torg%208%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Tångenvägen 11 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7597386,
+    "lng": 11.9328033,
+    "score": 4.38,
+    "response_rate": 38,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/T%C3%A5ngenv%C3%A4gen%2011%20f%C3%B6rskola/T%C3%A5ngenv%C3%A4gen%2011%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Vinlandsgatan 9K förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7335635,
+    "lng": 11.9165956,
+    "score": 4.63,
+    "response_rate": 54,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/Vinlandsgatan%209K%20f%C3%B6rskola/Vinlandsgatan%209K%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Väderbodarna 1B förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7248296,
+    "lng": 11.894896,
+    "score": 4.46,
+    "response_rate": 51,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/V%C3%A4derbodarna%201B%20f%C3%B6rskola/V%C3%A4derbodarna%201B%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Västra Tuvevägen 50 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7560998,
+    "lng": 11.921176,
+    "score": 3.96,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/V%C3%A4stra%20Tuvev%C3%A4gen%2050%20f%C3%B6rskola/V%C3%A4stra%20Tuvev%C3%A4gen%2050%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Änghagsdalen 16 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7309238,
+    "lng": 11.7873744,
+    "score": 4.78,
+    "response_rate": 73,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/%C3%84nghagsdalen%2016%20f%C3%B6rskola/%C3%84nghagsdalen%2016%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Änghagsvägen 4 förskola",
+    "area": "Hisingen 1",
+    "lat": 57.7332476,
+    "lng": 11.7837635,
+    "score": 4.55,
+    "response_rate": 72,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%201/%C3%84nghagsv%C3%A4gen%204%20f%C3%B6rskola/%C3%84nghagsv%C3%A4gen%204%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Amhults Byväg 10 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7111751,
+    "lng": 11.7706566,
+    "score": 3.73,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Amhults%20Byv%C3%A4g%2010%20f%C3%B6rskola/Amhults%20Byv%C3%A4g%2010%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Backa Kyrkogata 11 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7405525,
+    "lng": 11.9786584,
+    "score": 4.34,
+    "response_rate": 63,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Backa%20Kyrkogata%2011%20f%C3%B6rskola/Backa%20Kyrkogata%2011%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Bergartsgatan 1 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7403172,
+    "lng": 11.9631914,
+    "score": 4.49,
+    "response_rate": 85,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Bergartsgatan%201%20f%C3%B6rskola/Bergartsgatan%201%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Brunstorpsvägen 41 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.8050377,
+    "lng": 11.9052608,
+    "score": 4.81,
+    "response_rate": 39,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Brunstorpsv%C3%A4gen%2041%20f%C3%B6rskola/Brunstorpsv%C3%A4gen%2041%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Brännekullavägen 5 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7145836,
+    "lng": 11.7228516,
+    "score": 4.71,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Br%C3%A4nnekullav%C3%A4gen%205%20f%C3%B6rskola/Br%C3%A4nnekullav%C3%A4gen%205%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Dimvädersgatan 1-5 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7285554,
+    "lng": 11.8889429,
+    "score": 4.29,
+    "response_rate": 32,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Dimv%C3%A4dersgatan%201-5%20f%C3%B6rskola/Dimv%C3%A4dersgatan%201-5%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Flygvädersgatan 13 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7283979,
+    "lng": 11.8869491,
+    "score": 4.67,
+    "response_rate": 46,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Flygv%C3%A4dersgatan%2013%20f%C3%B6rskola/Flygv%C3%A4dersgatan%2013%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Friarelyckan 53 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.8097663,
+    "lng": 11.9773145,
+    "score": 4.46,
+    "response_rate": 81,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Friarelyckan%2053%20f%C3%B6rskola/Friarelyckan%2053%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Friarelyckan 55 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.8097663,
+    "lng": 11.9773145,
+    "score": 4.36,
+    "response_rate": 58,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Friarelyckan%2055%20f%C3%B6rskola/Friarelyckan%2055%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Friedländers gata 20 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7551549,
+    "lng": 11.9892464,
+    "score": 4.23,
+    "response_rate": 55,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Friedl%C3%A4nders%20gata%2020%20f%C3%B6rskola/Friedl%C3%A4nders%20gata%2020%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Författaregatan 11 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7301364,
+    "lng": 11.9708564,
+    "score": 4.39,
+    "response_rate": 62,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/F%C3%B6rfattaregatan%2011%20f%C3%B6rskola/F%C3%B6rfattaregatan%2011%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Klockarevägen 3 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7915251,
+    "lng": 11.9938905,
+    "score": 4.19,
+    "response_rate": 40,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Klockarev%C3%A4gen%203%20f%C3%B6rskola/Klockarev%C3%A4gen%203%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Krumeluren 6 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7443159,
+    "lng": 11.9712117,
+    "score": 4.28,
+    "response_rate": 31,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Krumeluren%206%20f%C3%B6rskola/Krumeluren%206%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Kålhagen 3-7 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7181544,
+    "lng": 11.774557,
+    "score": 4.5,
+    "response_rate": 38,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/K%C3%A5lhagen%203-7%20f%C3%B6rskola/K%C3%A5lhagen%203-7%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Lilla Solstrålegatan 10 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7388528,
+    "lng": 11.8996234,
+    "score": 4.24,
+    "response_rate": 32,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Lilla%20Solstr%C3%A5legatan%2010%20f%C3%B6rskola/Lilla%20Solstr%C3%A5legatan%2010%20f%C3%B6rskola.pdf"
+  },
+  {
+    "name": "Lillekärr Norra 130 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7947681,
+    "lng": 11.9918983,
+    "score": 4.46,
+    "response_rate": 39,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Lillek%C3%A4rr%20Norra%20130%20f%C3%B6rskola/Lillek%C3%A4rr%20Norra%20130%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Lillekärr Södra 53 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7938118,
+    "lng": 11.9946796,
+    "score": 4.6,
+    "response_rate": 30,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Lillek%C3%A4rr%20S%C3%B6dra%2053%20f%C3%B6rskola/Lillek%C3%A4rr%20S%C3%B6dra%2053%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Lisa Sass Gata 11 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7507349,
+    "lng": 11.9866244,
+    "score": 4.08,
+    "response_rate": 42,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Lisa%20Sass%20Gata%2011%20f%C3%B6rskola/Lisa%20Sass%20Gata%2011%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Litteraturtorget 5 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7429875,
+    "lng": 11.9734969,
+    "score": 4.18,
+    "response_rate": 44,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Litteraturtorget%205%20f%C3%B6rskola/Litteraturtorget%205%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Låkebergsgatan 10 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7208376,
+    "lng": 11.7764065,
+    "score": 4.38,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/L%C3%A5kebergsgatan%2010%20f%C3%B6rskola/L%C3%A5kebergsgatan%2010%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Myrekärrsvägen 45 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7440478,
+    "lng": 11.9187867,
+    "score": 4.93,
+    "response_rate": 70,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Myrek%C3%A4rrsv%C3%A4gen%2045%20f%C3%B6rskola/Myrek%C3%A4rrsv%C3%A4gen%2045%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Prilyckegatan 147 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7938645,
+    "lng": 11.9869358,
+    "score": 4.27,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Prilyckegatan%20147%20f%C3%B6rskola/Prilyckegatan%20147%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Rimmaregatan 5 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7470501,
+    "lng": 11.9829584,
+    "score": 4.7,
+    "response_rate": 54,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Rimmaregatan%205%20f%C3%B6rskola/Rimmaregatan%205%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Skogsängsvägen 14 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7536672,
+    "lng": 11.9687555,
+    "score": 4.29,
+    "response_rate": 78,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Skogs%C3%A4ngsv%C3%A4gen%2014%20f%C3%B6rskola/Skogs%C3%A4ngsv%C3%A4gen%2014%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Skutehagsvägen 102 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7067583,
+    "lng": 11.7654336,
+    "score": 4.52,
+    "response_rate": 73,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Skutehagsv%C3%A4gen%20102%20f%C3%B6rskola/Skutehagsv%C3%A4gen%20102%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Solhagagatan 136 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7980651,
+    "lng": 11.9946126,
+    "score": 4.3,
+    "response_rate": 26,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Solhagagatan%20136%20f%C3%B6rskola/Solhagagatan%20136%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Solvädersbyn 60 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7240386,
+    "lng": 11.8869616,
+    "score": 4.42,
+    "response_rate": 23,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Solv%C3%A4dersbyn%2060%20f%C3%B6rskola/Solv%C3%A4dersbyn%2060%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Temperaturgatan 7 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7330197,
+    "lng": 11.8904259,
+    "score": 4.1,
+    "response_rate": 32,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Temperaturgatan%207%20f%C3%B6rskola/Temperaturgatan%207%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Temperaturgatan 70 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.732903,
+    "lng": 11.8871316,
+    "score": 4.44,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Temperaturgatan%2070%20f%C3%B6rskola/Temperaturgatan%2070%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Temperaturgatan 93 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7360116,
+    "lng": 11.8888341,
+    "score": 4.18,
+    "response_rate": 40,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Temperaturgatan%2093%20f%C3%B6rskola/Temperaturgatan%2093%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Torslanda Hästeviks Väg 10 förskola",
+    "area": "Hisingen 2",
+    "lat": 57.7128782,
+    "lng": 11.7252309,
+    "score": 4.56,
+    "response_rate": 58,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%202/Torslanda%20H%C3%A4steviks%20V%C3%A4g%2010%20f%C3%B6rskola/Torslanda%20H%C3%A4steviks%20V%C3%A4g%2010%20f%C3%B6rsk.pdf"
+  },
+  {
+    "name": "Astris Gata 7 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.6986395,
+    "lng": 11.9020651,
+    "score": 3.75,
+    "response_rate": 50,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Astris%20Gata%207%20f%C3%B6rskola/Astris%20Gata%207%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Biskopsgatan 8 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.706613,
+    "lng": 11.9091931,
+    "score": 4.16,
+    "response_rate": 48,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Biskopsgatan%208%20f%C3%B6rskola/Biskopsgatan%208%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Blackevägen 3 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7235859,
+    "lng": 11.923741,
+    "score": 4.4,
+    "response_rate": 76,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Blackev%C3%A4gen%203%20f%C3%B6rskola/Blackev%C3%A4gen%203%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Ceresgatan 16 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7087848,
+    "lng": 11.9309275,
+    "score": 4.14,
+    "response_rate": 50,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Ceresgatan%2016%20f%C3%B6rskola/Ceresgatan%2016%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Fjärdingsgatan 20 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7231739,
+    "lng": 11.9434342,
+    "score": 4.47,
+    "response_rate": 69,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Fj%C3%A4rdingsgatan%2020%20f%C3%B6rskola/Fj%C3%A4rdingsgatan%2020%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Fjärdingsgatan 23 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7240329,
+    "lng": 11.9443465,
+    "score": 4.0,
+    "response_rate": 54,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Fj%C3%A4rdingsgatan%2023%20f%C3%B6rskola/Fj%C3%A4rdingsgatan%2023%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Grönebackens Gata 19 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7124174,
+    "lng": 11.9101259,
+    "score": 4.38,
+    "response_rate": 58,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Gr%C3%B6nebackens%20Gata%2019%20f%C3%B6rskola/Gr%C3%B6nebackens%20Gata%2019%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Gustaf Dalénsgatan 7 D förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7228506,
+    "lng": 11.9456026,
+    "score": 4.45,
+    "response_rate": 50,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Gustaf%20Dal%C3%A9nsgatan%207%20D%20f%C3%B6rskola/Gustaf%20Dal%C3%A9nsgatan%207%20D%20f%C3%B6rskola%20.pdf"
+  },
+  {
+    "name": "Götaverksgatan 22 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7092827,
+    "lng": 11.9432116,
+    "score": 4.29,
+    "response_rate": 69,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/G%C3%B6taverksgatan%2022%20f%C3%B6rskola/G%C3%B6taverksgatan%2022%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Kastvindsgatan 3 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7186422,
+    "lng": 11.9341328,
+    "score": 4.35,
+    "response_rate": 46,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Kastvindsgatan%203%20f%C3%B6rskola/Kastvindsgatan%203%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Konvaljegatan 8 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.722899,
+    "lng": 11.937156,
+    "score": 3.56,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Konvaljegatan%208%20f%C3%B6rskola/Konvaljegatan%208%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Kunskapsgatan 3 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7037112,
+    "lng": 11.9335815,
+    "score": 4.25,
+    "response_rate": 57,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Kunskapsgatan%203%20f%C3%B6rskola/Kunskapsgatan%203%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Miraallén 64 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7051733,
+    "lng": 11.9284719,
+    "score": 4.6,
+    "response_rate": 64,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Miraall%C3%A9n%2064%20f%C3%B6rskola/Miraall%C3%A9n%2064%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Prebendegatan 2 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7064733,
+    "lng": 11.9089414,
+    "score": 4.55,
+    "response_rate": 53,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Prebendegatan%202%20f%C3%B6rskola/Prebendegatan%202%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Prästkragsgatan 2 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7247655,
+    "lng": 11.9390601,
+    "score": 4.88,
+    "response_rate": 74,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Pr%C3%A4stkragsgatan%202%20f%C3%B6rskola/Pr%C3%A4stkragsgatan%202%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Prästvägen 6 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7141257,
+    "lng": 11.9154617,
+    "score": 4.19,
+    "response_rate": 42,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Pr%C3%A4stv%C3%A4gen%206%20f%C3%B6rskola/Pr%C3%A4stv%C3%A4gen%206%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Rosenapelgatan 22 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7181628,
+    "lng": 11.9259867,
+    "score": 4.39,
+    "response_rate": 53,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Rosenapelgatan%2022%20f%C3%B6rskola/Rosenapelgatan%2022%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Sockenvägen 26 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.723891,
+    "lng": 11.9292368,
+    "score": 4.26,
+    "response_rate": 84,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Sockenv%C3%A4gen%2026%20f%C3%B6rskola/Sockenv%C3%A4gen%2026%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Solventilsgatan 10 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7223326,
+    "lng": 11.9477124,
+    "score": 4.24,
+    "response_rate": 38,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Solventilsgatan%2010%20f%C3%B6rskola/Solventilsgatan%2010%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Södra Sälöfjordsgatan 27 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7123232,
+    "lng": 11.9031716,
+    "score": 4.79,
+    "response_rate": 29,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/S%C3%B6dra%20S%C3%A4l%C3%B6fjordsgatan%2027%20f%C3%B6rskola/S%C3%B6dra%20S%C3%A4l%C3%B6fjordsgatan%2027%20f%C3%B6rskol.pdf"
+  },
+  {
+    "name": "Wieselgrensgatan 11 A förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7223087,
+    "lng": 11.9344973,
+    "score": 4.38,
+    "response_rate": 61,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/Wieselgrensgatan%2011%20A%20f%C3%B6rskola/Wieselgrensgatan%2011%20A%20f%C3%B6rskola%20U.pdf"
+  },
+  {
+    "name": "Äringsgatan 4 A förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7096323,
+    "lng": 11.9105407,
+    "score": 4.83,
+    "response_rate": 40,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/%C3%84ringsgatan%204%20A%20f%C3%B6rskola/%C3%84ringsgatan%204%20A%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Östra Keillersgatan 3 förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7163596,
+    "lng": 11.9275392,
+    "score": 4.53,
+    "response_rate": 55,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/%C3%96stra%20Keillersgatan%203%20f%C3%B6rskola/%C3%96stra%20Keillersgatan%203%20f%C3%B6rskola%20U.pdf"
+  },
+  {
+    "name": "Övre Hallegatan 1B förskola",
+    "area": "Hisingen 3",
+    "lat": 57.7168164,
+    "lng": 11.9396509,
+    "score": 4.63,
+    "response_rate": 51,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Hisingen%203/%C3%96vre%20Hallegatan%201B%20f%C3%B6rskola/%C3%96vre%20Hallegatan%201B%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Anna Branzells gata 15 förskola",
+    "area": "Nordost 1",
+    "lat": 57.732664,
+    "lng": 12.0328345,
+    "score": 4.81,
+    "response_rate": 44,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Anna%20Branzells%20gata%2015%20f%C3%B6rskola/Anna%20Branzells%20gata%2015%20f%C3%B6rskola%20.pdf"
+  },
+  {
+    "name": "Bergsgårdsgärdet 93 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7683409,
+    "lng": 12.0184655,
+    "score": 3.92,
+    "response_rate": 28,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Bergsg%C3%A5rdsg%C3%A4rdet%2093%20f%C3%B6rskola/Bergsg%C3%A5rdsg%C3%A4rdet%2093%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Beväringsgatan 3 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7401387,
+    "lng": 12.0285784,
+    "score": 4.32,
+    "response_rate": 39,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Bev%C3%A4ringsgatan%203%20f%C3%B6rskola/Bev%C3%A4ringsgatan%203%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Bollplansgatan 2 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7673204,
+    "lng": 12.0256468,
+    "score": 4.41,
+    "response_rate": 27,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Bollplansgatan%202%20f%C3%B6rskola/Bollplansgatan%202%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Bondegärdet 18 B förskola",
+    "area": "Nordost 1",
+    "lat": 57.7703763,
+    "lng": 12.0277281,
+    "score": 4.57,
+    "response_rate": 16,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Bondeg%C3%A4rdet%2018%20B%20f%C3%B6rskola/Bondeg%C3%A4rdet%2018%20B%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Bunkebergsgatan 10 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7306975,
+    "lng": 12.0173896,
+    "score": 4.06,
+    "response_rate": 42,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Bunkebergsgatan%2010%20f%C3%B6rskola/Bunkebergsgatan%2010%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Dragonörtsgatan 1 förskola",
+    "area": "Nordost 1",
+    "lat": 57.8139379,
+    "lng": 12.040003,
+    "score": 4.28,
+    "response_rate": 34,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Dragon%C3%B6rtsgatan%201%20f%C3%B6rskola/Dragon%C3%B6rtsgatan%201%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Edwin Ahlqvists Väg 55 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7475134,
+    "lng": 12.036943,
+    "score": 4.27,
+    "response_rate": 39,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Edwin%20Ahlqvists%20V%C3%A4g%2055%20f%C3%B6rskola/Edwin%20Ahlqvists%20V%C3%A4g%2055%20f%C3%B6rskola%20.pdf"
+  },
+  {
+    "name": "Eriksbo Västergärde 35 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7717834,
+    "lng": 12.0412372,
+    "score": 4.19,
+    "response_rate": 22,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Eriksbo%20V%C3%A4sterg%C3%A4rde%2035%20f%C3%B6rskola/Eriksbo%20V%C3%A4sterg%C3%A4rde%2035%20f%C3%B6rskola%20.pdf"
+  },
+  {
+    "name": "Hinderbanan 1 förskola",
+    "area": "Nordost 1",
+    "lat": 57.735642,
+    "lng": 12.0271337,
+    "score": 4.42,
+    "response_rate": 32,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Hinderbanan%201%20f%C3%B6rskola/Hinderbanan%201%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Kalendervägen 15-17 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7474592,
+    "lng": 12.0327153,
+    "score": 4.53,
+    "response_rate": 41,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Kalenderv%C3%A4gen%2015-17%20f%C3%B6rskola/Kalenderv%C3%A4gen%2015-17%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Kanelgatan 38 A förskola",
+    "area": "Nordost 1",
+    "lat": 57.8061798,
+    "lng": 12.0263414,
+    "score": 4.29,
+    "response_rate": 33,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Kanelgatan%2038%20A%20f%C3%B6rskola/Kanelgatan%2038%20A%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Kanngjutaregatan 1 förskola",
+    "area": "Nordost 1",
+    "lat": 57.741894,
+    "lng": 12.0692083,
+    "score": 4.15,
+    "response_rate": 41,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Kanngjutaregatan%201%20f%C3%B6rskola/Kanngjutaregatan%201%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Karduansmakaregatan 44 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7413083,
+    "lng": 12.0715064,
+    "score": 4.36,
+    "response_rate": 60,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Karduansmakaregatan%2044%20f%C3%B6rskola/Karduansmakaregatan%2044%20f%C3%B6rskola%20.pdf"
+  },
+  {
+    "name": "Knivsmedsgatan 2 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7391544,
+    "lng": 12.0493549,
+    "score": 4.48,
+    "response_rate": 52,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Knivsmedsgatan%202%20f%C3%B6rskola/Knivsmedsgatan%202%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Kummingatan 126 förskola",
+    "area": "Nordost 1",
+    "lat": 57.8120252,
+    "lng": 12.043938,
+    "score": 4.31,
+    "response_rate": 43,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Kummingatan%20126%20f%C3%B6rskola/Kummingatan%20126%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Körvelgatan 2 Förskola",
+    "area": "Nordost 1",
+    "lat": 57.8178146,
+    "lng": 12.0313735,
+    "score": 4.41,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/K%C3%B6rvelgatan%202%20F%C3%B6rskola/K%C3%B6rvelgatan%202%20F%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Lars Kaggsgatan 35 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7334338,
+    "lng": 12.0171638,
+    "score": 4.3,
+    "response_rate": 60,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Lars%20Kaggsgatan%2035%20f%C3%B6rskola/Lars%20Kaggsgatan%2035%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Luftvärnsvägen 23 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7352802,
+    "lng": 12.0348756,
+    "score": 4.39,
+    "response_rate": 34,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Luftv%C3%A4rnsv%C3%A4gen%2023%20f%C3%B6rskola/Luftv%C3%A4rnsv%C3%A4gen%2023%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Minutgatan 4 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7485904,
+    "lng": 12.0301186,
+    "score": 4.53,
+    "response_rate": 59,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Minutgatan%204%20f%C3%B6rskola/Minutgatan%204%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Måns Bryntessonsgatan 10-12 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7339257,
+    "lng": 12.0082584,
+    "score": 4.63,
+    "response_rate": 30,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/M%C3%A5ns%20Bryntessonsgatan%2010-12%20f%C3%B6rskola/M%C3%A5ns%20Bryntessonsgatan%2010-12%20f%C3%B6rs.pdf"
+  },
+  {
+    "name": "Saffransgatan 80 förskola",
+    "area": "Nordost 1",
+    "lat": 57.8087359,
+    "lng": 12.0305688,
+    "score": 4.33,
+    "response_rate": 31,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Saffransgatan%2080%20f%C3%B6rskola/Saffransgatan%2080%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Saffransgatan 82 förskola",
+    "area": "Nordost 1",
+    "lat": 57.8087359,
+    "lng": 12.0305688,
+    "score": 4.21,
+    "response_rate": 34,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Saffransgatan%2082%20f%C3%B6rskola/Saffransgatan%2082%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Salviagatan 2 förskola",
+    "area": "Nordost 1",
+    "lat": 57.8010212,
+    "lng": 12.0342461,
+    "score": 4.25,
+    "response_rate": 38,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Salviagatan%202%20f%C3%B6rskola/Salviagatan%202%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Salviagatan 56 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7999542,
+    "lng": 12.0287858,
+    "score": 4.1,
+    "response_rate": 34,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Salviagatan%2056%20f%C3%B6rskola/Salviagatan%2056%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Skolspåret 2 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7694842,
+    "lng": 12.0133016,
+    "score": 4.35,
+    "response_rate": 32,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Skolsp%C3%A5ret%202%20f%C3%B6rskola/Skolsp%C3%A5ret%202%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Soldathemsgatan 19 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7324214,
+    "lng": 12.0289346,
+    "score": 4.26,
+    "response_rate": 62,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Soldathemsgatan%2019%20f%C3%B6rskola/Soldathemsgatan%2019%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Utbyvägen 50 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7378827,
+    "lng": 12.055997,
+    "score": 4.73,
+    "response_rate": 50,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Utbyv%C3%A4gen%2050%20f%C3%B6rskola/Utbyv%C3%A4gen%2050%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Vallareleden 24 förskola",
+    "area": "Nordost 1",
+    "lat": 57.7392932,
+    "lng": 12.04816,
+    "score": 4.83,
+    "response_rate": 61,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%201/Vallareleden%2024%20f%C3%B6rskola/Vallareleden%2024%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Aniaragatan 5 förskola",
+    "area": "Nordost 2",
+    "lat": 57.75515,
+    "lng": 12.0692864,
+    "score": 4.32,
+    "response_rate": 40,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Aniaragatan%205%20f%C3%B6rskola/Aniaragatan%205%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Aprilgatan 2A förskola",
+    "area": "Nordost 2",
+    "lat": 57.7634419,
+    "lng": 12.0451029,
+    "score": 4.21,
+    "response_rate": 42,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Aprilgatan%202A%20f%C3%B6rskola/Aprilgatan%202A%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Aprilgatan 2B förskola",
+    "area": "Nordost 2",
+    "lat": 57.7635447,
+    "lng": 12.0451713,
+    "score": 4.34,
+    "response_rate": 61,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Aprilgatan%202B%20f%C3%B6rskola/Aprilgatan%202B%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Bredfjällsgatan 72 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7809377,
+    "lng": 12.0294335,
+    "score": 4.23,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Bredfj%C3%A4llsgatan%2072%20f%C3%B6rskola/Bredfj%C3%A4llsgatan%2072%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Fanjunkarens Lycka 7 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7930468,
+    "lng": 12.1344384,
+    "score": 4.44,
+    "response_rate": 69,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Fanjunkarens%20Lycka%207%20f%C3%B6rskola/Fanjunkarens%20Lycka%207%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Fjällblomman 5 förskola",
+    "area": "Nordost 2",
+    "lat": 57.8029766,
+    "lng": 12.0704536,
+    "score": 4.78,
+    "response_rate": 62,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Fj%C3%A4llblomman%205%20f%C3%B6rskola/Fj%C3%A4llblomman%205%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Fjällkåpan 2 förskola",
+    "area": "Nordost 2",
+    "lat": 57.8005113,
+    "lng": 12.0733356,
+    "score": 4.86,
+    "response_rate": 70,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Fj%C3%A4llk%C3%A5pan%202%20f%C3%B6rskola/Fj%C3%A4llk%C3%A5pan%202%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Förstamajgatan 28 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7579198,
+    "lng": 12.0348282,
+    "score": 4.43,
+    "response_rate": 34,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/F%C3%B6rstamajgatan%2028%20f%C3%B6rskola/F%C3%B6rstamajgatan%2028%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Galaxgatan 1 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7605679,
+    "lng": 12.0500046,
+    "score": 4.47,
+    "response_rate": 40,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Galaxgatan%201%20f%C3%B6rskola/Galaxgatan%201%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Galaxgatan 5 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7602496,
+    "lng": 12.0512781,
+    "score": 4.56,
+    "response_rate": 69,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Galaxgatan%205%20f%C3%B6rskola/Galaxgatan%205%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Gropens gård 36 Förskola",
+    "area": "Nordost 2",
+    "lat": 57.7821928,
+    "lng": 12.0337695,
+    "score": 4.53,
+    "response_rate": 84,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Gropens%20g%C3%A5rd%2036%20F%C3%B6rskola/Gropens%20g%C3%A5rd%2036%20F%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Gunnilse Skolväg 3 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7855399,
+    "lng": 12.0879292,
+    "score": 4.71,
+    "response_rate": 70,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Gunnilse%20Skolv%C3%A4g%203%20f%C3%B6rskola/Gunnilse%20Skolv%C3%A4g%203%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Hammarkroken 1 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7777238,
+    "lng": 12.0420416,
+    "score": 4.52,
+    "response_rate": 39,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Hammarkroken%201%20f%C3%B6rskola/Hammarkroken%201%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Hammarkullegatan 3 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7813344,
+    "lng": 12.0349119,
+    "score": 4.5,
+    "response_rate": 78,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Hammarkullegatan%203%20f%C3%B6rskola/Hammarkullegatan%203%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Januarigatan 5 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7628626,
+    "lng": 12.041956,
+    "score": 3.98,
+    "response_rate": 73,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Januarigatan%205%20f%C3%B6rskola/Januarigatan%205%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Kometgatan 2 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7495168,
+    "lng": 12.0740224,
+    "score": 4.38,
+    "response_rate": 25,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Kometgatan%202%20f%C3%B6rskola/Kometgatan%202%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Kortedala Park 1 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7491098,
+    "lng": 12.0335589,
+    "score": 4.41,
+    "response_rate": 54,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Kortedala%20Park%201%20f%C3%B6rskola/Kortedala%20Park%201%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Kosmosgatan 1 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7490441,
+    "lng": 12.0689818,
+    "score": 4.3,
+    "response_rate": 57,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Kosmosgatan%201%20f%C3%B6rskola/Kosmosgatan%201%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Kvadrantgatan 1 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7564732,
+    "lng": 12.0591301,
+    "score": 4.19,
+    "response_rate": 76,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Kvadrantgatan%201%20f%C3%B6rskola/Kvadrantgatan%201%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Lerumsvägen 31 förskola",
+    "area": "Nordost 2",
+    "lat": 57.8003809,
+    "lng": 12.2023167,
+    "score": 4.67,
+    "response_rate": 53,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Lerumsv%C3%A4gen%2031%20f%C3%B6rskola/Lerumsv%C3%A4gen%2031%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Lilla Fjäderharvsgatan 6 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7983474,
+    "lng": 12.0580738,
+    "score": 4.28,
+    "response_rate": 40,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Lilla%20Fj%C3%A4derharvsgatan%206%20f%C3%B6rskola/Lilla%20Fj%C3%A4derharvsgatan%206%20f%C3%B6rskol.pdf"
+  },
+  {
+    "name": "Merkuriusgatan 75 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7594974,
+    "lng": 12.0696672,
+    "score": 3.94,
+    "response_rate": 31,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Merkuriusgatan%2075%20f%C3%B6rskola/Merkuriusgatan%2075%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Mölnesjögatan 165-166 förskola",
+    "area": "Nordost 2",
+    "lat": 57.8077013,
+    "lng": 12.0705773,
+    "score": 4.84,
+    "response_rate": 84,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/M%C3%B6lnesj%C3%B6gatan%20165-166%20f%C3%B6rskola/M%C3%B6lnesj%C3%B6gatan%20165-166%20f%C3%B6rskola%20U.pdf"
+  },
+  {
+    "name": "Olofstorpsvägen 8 förskola",
+    "area": "Nordost 2",
+    "lat": 57.8067316,
+    "lng": 12.1705348,
+    "score": 4.64,
+    "response_rate": 65,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Olofstorpsv%C3%A4gen%208%20f%C3%B6rskola/Olofstorpsv%C3%A4gen%208%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Ramnebacken 40 A förskola",
+    "area": "Nordost 2",
+    "lat": 57.790407,
+    "lng": 12.0325576,
+    "score": 4.71,
+    "response_rate": 80,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Ramnebacken%2040%20A%20f%C3%B6rskola/Ramnebacken%2040%20A%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Salsavägen 47 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7894023,
+    "lng": 12.0495113,
+    "score": 4.7,
+    "response_rate": 59,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Salsav%C3%A4gen%2047%20f%C3%B6rskola/Salsav%C3%A4gen%2047%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Sandeslättsgatan 3 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7782023,
+    "lng": 12.0391567,
+    "score": 4.15,
+    "response_rate": 30,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Sandesl%C3%A4ttsgatan%203%20f%C3%B6rskola/Sandesl%C3%A4ttsgatan%203%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Saras Väg 5 förskola",
+    "area": "Nordost 2",
+    "lat": 57.8026316,
+    "lng": 12.162548,
+    "score": 4.69,
+    "response_rate": 48,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Saras%20V%C3%A4g%205%20f%C3%B6rskola/Saras%20V%C3%A4g%205%20f%C3%B6rskola%20Uppskalning.pdf"
+  },
+  {
+    "name": "Saturnusgatan 20 förskola",
+    "area": "Nordost 2",
+    "lat": 57.75554,
+    "lng": 12.0738756,
+    "score": 4.41,
+    "response_rate": 28,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Saturnusgatan%2020%20f%C3%B6rskola/Saturnusgatan%2020%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Siriusgatan 4-10 förskola",
+    "area": "Nordost 2",
+    "lat": 57.756303,
+    "lng": 12.054473,
+    "score": 4.18,
+    "response_rate": 48,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Siriusgatan%204-10%20f%C3%B6rskola/Siriusgatan%204-10%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Stora Björn 2 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7548863,
+    "lng": 12.0560566,
+    "score": 4.6,
+    "response_rate": 71,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Stora%20Bj%C3%B6rn%202%20f%C3%B6rskola/Stora%20Bj%C3%B6rn%202%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Teleskopgatan 3 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7610867,
+    "lng": 12.0601617,
+    "score": 4.42,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Teleskopgatan%203%20f%C3%B6rskola/Teleskopgatan%203%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Tideräkningsgatan 4 C förskola",
+    "area": "Nordost 2",
+    "lat": 57.7527597,
+    "lng": 12.0275195,
+    "score": 4.44,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Tider%C3%A4kningsgatan%204%20C%20f%C3%B6rskola/Tider%C3%A4kningsgatan%204%20C%20f%C3%B6rskola%20U.pdf"
+  },
+  {
+    "name": "Titteridammstigen 2 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7998435,
+    "lng": 12.0584415,
+    "score": 4.86,
+    "response_rate": 52,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Titteridammstigen%202%20f%C3%B6rskola/Titteridammstigen%202%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Trädgårdsgärdet 124 förskola",
+    "area": "Nordost 2",
+    "lat": 57.8036743,
+    "lng": 12.0517024,
+    "score": 4.47,
+    "response_rate": 63,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Tr%C3%A4dg%C3%A5rdsg%C3%A4rdet%20124%20f%C3%B6rskola/Tr%C3%A4dg%C3%A5rdsg%C3%A4rdet%20124%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Universumsgatan 2 förskola",
+    "area": "Nordost 2",
+    "lat": 57.7502374,
+    "lng": 12.0667251,
+    "score": 4.28,
+    "response_rate": 53,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Nordost%202/Universumsgatan%202%20f%C3%B6rskola/Universumsgatan%202%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Askims Domarringsväg 103 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6329347,
+    "lng": 11.959475,
+    "score": 4.57,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Askims%20Domarringsv%C3%A4g%20103%20f%C3%B6rskola/Askims%20Domarringsv%C3%A4g%20103%20f%C3%B6rskol.pdf"
+  },
+  {
+    "name": "Berguven 4 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.5972048,
+    "lng": 11.9495786,
+    "score": 4.25,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Berguven%204%20f%C3%B6rskola/Berguven%204%20f%C3%B6rskola%20Uppskalning%20.pdf"
+  },
+  {
+    "name": "Beryllgatan 1 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6576306,
+    "lng": 11.8895622,
+    "score": 4.66,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Beryllgatan%201%20f%C3%B6rskola/Beryllgatan%201%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Billdals Kyrkväg 3 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.5761142,
+    "lng": 11.9433741,
+    "score": 4.65,
+    "response_rate": 57,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Billdals%20Kyrkv%C3%A4g%203%20f%C3%B6rskola/Billdals%20Kyrkv%C3%A4g%203%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Brännemysten 6 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6016052,
+    "lng": 11.9465124,
+    "score": 4.4,
+    "response_rate": 43,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Br%C3%A4nnemysten%206%20f%C3%B6rskola/Br%C3%A4nnemysten%206%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Bygatan 13 C förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6649106,
+    "lng": 11.8622288,
+    "score": 4.61,
+    "response_rate": 66,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Bygatan%2013%20C%20f%C3%B6rskola/Bygatan%2013%20C%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Eckragatan 36 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6698041,
+    "lng": 11.8598675,
+    "score": 4.14,
+    "response_rate": 44,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Eckragatan%2036%20f%C3%B6rskola/Eckragatan%2036%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Förskolevägen 3 Förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6249616,
+    "lng": 11.932438,
+    "score": 4.4,
+    "response_rate": 55,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/F%C3%B6rskolev%C3%A4gen%203%20F%C3%B6rskola/F%C3%B6rskolev%C3%A4gen%203%20F%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Gjutegården 7 A förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6352491,
+    "lng": 11.92018,
+    "score": 3.76,
+    "response_rate": 57,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Gjuteg%C3%A5rden%207%20A%20f%C3%B6rskola/Gjuteg%C3%A5rden%207%20A%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Hagens Kapellväg 4 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6765027,
+    "lng": 11.8839354,
+    "score": 4.77,
+    "response_rate": 51,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Hagens%20Kapellv%C3%A4g%204%20f%C3%B6rskola/Hagens%20Kapellv%C3%A4g%204%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Hammarvägen 4A förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6246031,
+    "lng": 11.8994631,
+    "score": 4.22,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Hammarv%C3%A4gen%204A%20f%C3%B6rskola/Hammarv%C3%A4gen%204A%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Hyltevägen 1 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6402407,
+    "lng": 11.9404576,
+    "score": 3.81,
+    "response_rate": 47,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Hyltev%C3%A4gen%201%20f%C3%B6rskola/Hyltev%C3%A4gen%201%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Hyltevägen 51 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6418911,
+    "lng": 11.9379058,
+    "score": 4.32,
+    "response_rate": 40,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Hyltev%C3%A4gen%2051%20f%C3%B6rskola/Hyltev%C3%A4gen%2051%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Klåvavägen 77 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.60025,
+    "lng": 11.9469828,
+    "score": 4.64,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Kl%C3%A5vav%C3%A4gen%2077%20f%C3%B6rskola/Kl%C3%A5vav%C3%A4gen%2077%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Lilla Grevegårdsvägen 6 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6501003,
+    "lng": 11.8897911,
+    "score": 4.29,
+    "response_rate": 44,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Lilla%20Greveg%C3%A5rdsv%C3%A4gen%206%20f%C3%B6rskola/Lilla%20Greveg%C3%A5rdsv%C3%A4gen%206%20f%C3%B6rskola.pdf"
+  },
+  {
+    "name": "Lilla Skintebovägen 8 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.5898723,
+    "lng": 11.939534,
+    "score": 4.54,
+    "response_rate": 60,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Lilla%20Skintebov%C3%A4gen%208%20f%C3%B6rskola/Lilla%20Skintebov%C3%A4gen%208%20f%C3%B6rskola%20U.pdf"
+  },
+  {
+    "name": "Lindebovägen 1 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.5664408,
+    "lng": 11.9412888,
+    "score": 4.05,
+    "response_rate": 62,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Lindebov%C3%A4gen%201%20f%C3%B6rskola/Lindebov%C3%A4gen%201%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Norra Flundregatan 23 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6520547,
+    "lng": 11.8624878,
+    "score": 4.9,
+    "response_rate": 74,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Norra%20Flundregatan%2023%20f%C3%B6rskola/Norra%20Flundregatan%2023%20f%C3%B6rskola%20U.pdf"
+  },
+  {
+    "name": "Pilegården 9H förskola",
+    "area": "Sydväst 1",
+    "lat": 57.640548,
+    "lng": 11.9343157,
+    "score": 4.45,
+    "response_rate": 57,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Pileg%C3%A5rden%209H%20f%C3%B6rskola/Pileg%C3%A5rden%209H%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Sisjöbäckens Väg 2 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6365419,
+    "lng": 11.9603126,
+    "score": 4.46,
+    "response_rate": 52,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Sisj%C3%B6b%C3%A4ckens%20V%C3%A4g%202%20f%C3%B6rskola/Sisj%C3%B6b%C3%A4ckens%20V%C3%A4g%202%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Skattegårdsvägen 100 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6473552,
+    "lng": 11.8918574,
+    "score": 4.44,
+    "response_rate": 57,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Skatteg%C3%A5rdsv%C3%A4gen%20100%20f%C3%B6rskola/Skatteg%C3%A5rdsv%C3%A4gen%20100%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Smultronvägen 7 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6553667,
+    "lng": 11.8887954,
+    "score": 4.43,
+    "response_rate": 43,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Smultronv%C3%A4gen%207%20f%C3%B6rskola/Smultronv%C3%A4gen%207%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Stengetsgatan 22 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6793007,
+    "lng": 11.8842588,
+    "score": 4.86,
+    "response_rate": 61,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Stengetsgatan%2022%20f%C3%B6rskola/Stengetsgatan%2022%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Stjärnbåtsgatan 7 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6802268,
+    "lng": 11.8903155,
+    "score": 4.47,
+    "response_rate": 48,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Stj%C3%A4rnb%C3%A5tsgatan%207%20f%C3%B6rskola/Stj%C3%A4rnb%C3%A5tsgatan%207%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Stomvägen 1 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6344115,
+    "lng": 11.9368811,
+    "score": 4.39,
+    "response_rate": 55,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Stomv%C3%A4gen%201%20f%C3%B6rskola/Stomv%C3%A4gen%201%20f%C3%B6rskola%20Uppskalning.pdf"
+  },
+  {
+    "name": "Stora Fiskebäcksvägen 101 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6547606,
+    "lng": 11.8705195,
+    "score": 4.42,
+    "response_rate": 51,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Stora%20Fiskeb%C3%A4cksv%C3%A4gen%20101%20f%C3%B6rskola/Stora%20Fiskeb%C3%A4cksv%C3%A4gen%20101%20f%C3%B6rsko.pdf"
+  },
+  {
+    "name": "Svetsaregatan 101 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6732545,
+    "lng": 11.9063278,
+    "score": 4.31,
+    "response_rate": 54,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Svetsaregatan%20101%20f%C3%B6rskola/Svetsaregatan%20101%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Södra Särövägen 80 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.5732713,
+    "lng": 11.944219,
+    "score": 3.71,
+    "response_rate": 37,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/S%C3%B6dra%20S%C3%A4r%C3%B6v%C3%A4gen%2080%20f%C3%B6rskola/S%C3%B6dra%20S%C3%A4r%C3%B6v%C3%A4gen%2080%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Tunnlandsgatan 3 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6677608,
+    "lng": 11.9262282,
+    "score": 4.48,
+    "response_rate": 55,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Tunnlandsgatan%203%20f%C3%B6rskola/Tunnlandsgatan%203%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Uggledalsvägen 31 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.5915808,
+    "lng": 11.9537591,
+    "score": 4.69,
+    "response_rate": 55,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/Uggledalsv%C3%A4gen%2031%20f%C3%B6rskola/Uggledalsv%C3%A4gen%2031%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Ängåsgatan 21 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6768537,
+    "lng": 11.9096311,
+    "score": 4.7,
+    "response_rate": 62,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/%C3%84ng%C3%A5sgatan%2021%20f%C3%B6rskola/%C3%84ng%C3%A5sgatan%2021%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Årekärrsvägen 1 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6009575,
+    "lng": 11.9568535,
+    "score": 4.45,
+    "response_rate": 65,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/%C3%85rek%C3%A4rrsv%C3%A4gen%201%20f%C3%B6rskola/%C3%85rek%C3%A4rrsv%C3%A4gen%201%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Örlogsvägen 20 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.682581,
+    "lng": 11.8887585,
+    "score": 4.32,
+    "response_rate": 50,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/%C3%96rlogsv%C3%A4gen%2020%20f%C3%B6rskola/%C3%96rlogsv%C3%A4gen%2020%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Östra Palmgrensgatan 38 förskola",
+    "area": "Sydväst 1",
+    "lat": 57.6742474,
+    "lng": 11.8880885,
+    "score": 4.5,
+    "response_rate": 61,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%201/%C3%96stra%20Palmgrensgatan%2038%20f%C3%B6rskola/%C3%96stra%20Palmgrensgatan%2038%20f%C3%B6rskola.pdf"
+  },
+  {
+    "name": "Apelsingatan 15 förskola i Ur och Skur",
+    "area": "Sydväst 2",
+    "lat": 57.655209,
+    "lng": 11.8783208,
+    "score": 4.76,
+    "response_rate": 68,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Apelsingatan%2015%20f%C3%B6rskola%20i%20Ur%20och%20Skur/Apelsingatan%2015%20f%C3%B6rskola%20i%20Ur%20oc.pdf"
+  },
+  {
+    "name": "Barytongatan 2 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6675523,
+    "lng": 11.9179548,
+    "score": 4.52,
+    "response_rate": 54,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Barytongatan%202%20f%C3%B6rskola/Barytongatan%202%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Bildradiogatan 38 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.657824,
+    "lng": 11.9245134,
+    "score": 4.5,
+    "response_rate": 58,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Bildradiogatan%2038%20f%C3%B6rskola/Bildradiogatan%2038%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Brattenskogen 6 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6157418,
+    "lng": 11.7916419,
+    "score": 4.89,
+    "response_rate": 53,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Brattenskogen%206%20f%C3%B6rskola/Brattenskogen%206%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Bronsåldersgatan 27 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6411675,
+    "lng": 11.9052687,
+    "score": 4.64,
+    "response_rate": 41,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Brons%C3%A5ldersgatan%2027%20f%C3%B6rskola/Brons%C3%A5ldersgatan%2027%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Famngatan 18 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6635985,
+    "lng": 11.9275153,
+    "score": 4.7,
+    "response_rate": 39,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Famngatan%2018%20f%C3%B6rskola/Famngatan%2018%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Fredagstomten 23 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6591254,
+    "lng": 11.884961,
+    "score": 4.67,
+    "response_rate": 72,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Fredagstomten%2023%20f%C3%B6rskola/Fredagstomten%2023%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Gitarrgatan 5 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6609543,
+    "lng": 11.9154788,
+    "score": 4.55,
+    "response_rate": 46,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Gitarrgatan%205%20f%C3%B6rskola/Gitarrgatan%205%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Gnistgatan 3 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6541761,
+    "lng": 11.924266,
+    "score": 4.62,
+    "response_rate": 61,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Gnistgatan%203%20f%C3%B6rskola/Gnistgatan%203%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Grållekroksvägen 4-8 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.5700079,
+    "lng": 11.7854716,
+    "score": 4.79,
+    "response_rate": 93,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Gr%C3%A5llekroksv%C3%A4gen%204-8%20f%C3%B6rskola/Gr%C3%A5llekroksv%C3%A4gen%204-8%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Gånglåten 31 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6567238,
+    "lng": 11.9045565,
+    "score": 4.57,
+    "response_rate": 47,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/G%C3%A5ngl%C3%A5ten%2031%20f%C3%B6rskola/G%C3%A5ngl%C3%A5ten%2031%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Jydeklovan 2 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6405264,
+    "lng": 11.7802839,
+    "score": 4.74,
+    "response_rate": 59,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Jydeklovan%202%20f%C3%B6rskola/Jydeklovan%202%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Korsåsliden 29 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6443915,
+    "lng": 11.9088522,
+    "score": 3.42,
+    "response_rate": 43,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Kors%C3%A5sliden%2029%20f%C3%B6rskola/Kors%C3%A5sliden%2029%20f%C3%B6rskola%20Uppskaln.pdf"
+  },
+  {
+    "name": "Körevägen 15 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6483205,
+    "lng": 11.7991508,
+    "score": 4.67,
+    "response_rate": 56,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/K%C3%B6rev%C3%A4gen%2015%20f%C3%B6rskola/K%C3%B6rev%C3%A4gen%2015%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Marklandsgatan 41 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6712976,
+    "lng": 11.9358053,
+    "score": 4.25,
+    "response_rate": 54,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Marklandsgatan%2041%20f%C3%B6rskola/Marklandsgatan%2041%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Melongatan 3 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.648569,
+    "lng": 11.8773245,
+    "score": 4.46,
+    "response_rate": 48,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Melongatan%203%20f%C3%B6rskola/Melongatan%203%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Munspelsgatan 6 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6561419,
+    "lng": 11.9061145,
+    "score": 4.21,
+    "response_rate": 43,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Munspelsgatan%206%20f%C3%B6rskola/Munspelsgatan%206%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Nymilsgatan 6-8 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6620171,
+    "lng": 11.9255732,
+    "score": 4.25,
+    "response_rate": 40,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Nymilsgatan%206-8%20f%C3%B6rskola/Nymilsgatan%206-8%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Opalgatan 100 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.639484,
+    "lng": 11.898231,
+    "score": 3.81,
+    "response_rate": 55,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Opalgatan%20100%20f%C3%B6rskola/Opalgatan%20100%20f%C3%B6rskola%20Uppskalni.pdf"
+  },
+  {
+    "name": "Orkestergatan 35 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6624696,
+    "lng": 11.9229398,
+    "score": 4.23,
+    "response_rate": 37,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Orkestergatan%2035%20f%C3%B6rskola/Orkestergatan%2035%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Oxelgatan 6 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6669694,
+    "lng": 11.8754436,
+    "score": 4.66,
+    "response_rate": 60,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Oxelgatan%206%20f%C3%B6rskola/Oxelgatan%206%20f%C3%B6rskola%20Uppskalning.pdf"
+  },
+  {
+    "name": "Redegatan 15 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6695964,
+    "lng": 11.8793942,
+    "score": 4.89,
+    "response_rate": 67,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Redegatan%2015%20f%C3%B6rskola/Redegatan%2015%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Sjupundsgatan 28 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6721504,
+    "lng": 11.920886,
+    "score": 4.21,
+    "response_rate": 46,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Sjupundsgatan%2028%20f%C3%B6rskola/Sjupundsgatan%2028%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Sjupundsgatan 33 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6748012,
+    "lng": 11.9191643,
+    "score": 2.79,
+    "response_rate": 59,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Sjupundsgatan%2033%20f%C3%B6rskola/Sjupundsgatan%2033%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Smaragdgatan 28 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6463888,
+    "lng": 11.9011441,
+    "score": 4.06,
+    "response_rate": 43,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Smaragdgatan%2028%20f%C3%B6rskola/Smaragdgatan%2028%20f%C3%B6rskola%20Uppskal.pdf"
+  },
+  {
+    "name": "Smithska Vägen 14 B förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6181233,
+    "lng": 11.8958373,
+    "score": 4.72,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Smithska%20V%C3%A4gen%2014%20B%20f%C3%B6rskola/Smithska%20V%C3%A4gen%2014%20B%20f%C3%B6rskola%20Upp.pdf"
+  },
+  {
+    "name": "Stenskärsgatan 2 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6455935,
+    "lng": 11.8815422,
+    "score": 4.11,
+    "response_rate": 51,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Stensk%C3%A4rsgatan%202%20f%C3%B6rskola/Stensk%C3%A4rsgatan%202%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Svante Orells väg 12 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6085079,
+    "lng": 11.7911272,
+    "score": 5.0,
+    "response_rate": 90,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Svante%20Orells%20v%C3%A4g%2012%20f%C3%B6rskola/Svante%20Orells%20v%C3%A4g%2012%20f%C3%B6rskola%20Up.pdf"
+  },
+  {
+    "name": "Topasgatan 1 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6460318,
+    "lng": 11.916003,
+    "score": 4.22,
+    "response_rate": 43,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Topasgatan%201%20f%C3%B6rskola/Topasgatan%201%20f%C3%B6rskola%20Uppskalnin.pdf"
+  },
+  {
+    "name": "Transistorgatan 2 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6580979,
+    "lng": 11.9217313,
+    "score": 4.34,
+    "response_rate": 40,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Transistorgatan%202%20f%C3%B6rskola/Transistorgatan%202%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Töttefällevägen 2 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6011403,
+    "lng": 11.8041554,
+    "score": 4.67,
+    "response_rate": 62,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/T%C3%B6ttef%C3%A4llev%C3%A4gen%202%20f%C3%B6rskola/T%C3%B6ttef%C3%A4llev%C3%A4gen%202%20f%C3%B6rskola%20Uppsk.pdf"
+  },
+  {
+    "name": "Valthornsgatan 3 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6537233,
+    "lng": 11.9084172,
+    "score": 4.44,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/Valthornsgatan%203%20f%C3%B6rskola/Valthornsgatan%203%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Våglängdsgatan 7 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6531105,
+    "lng": 11.929662,
+    "score": 3.43,
+    "response_rate": 58,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/V%C3%A5gl%C3%A4ngdsgatan%207%20f%C3%B6rskola/V%C3%A5gl%C3%A4ngdsgatan%207%20f%C3%B6rskola%20Uppska.pdf"
+  },
+  {
+    "name": "Åkereds Skolväg 20 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6344645,
+    "lng": 11.9016898,
+    "score": 4.56,
+    "response_rate": 45,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/%C3%85kereds%20Skolv%C3%A4g%2020%20f%C3%B6rskola/%C3%85kereds%20Skolv%C3%A4g%2020%20f%C3%B6rskola%20Upps.pdf"
+  },
+  {
+    "name": "Örtugsgatan 2 förskola",
+    "area": "Sydväst 2",
+    "lat": 57.6737173,
+    "lng": 11.92442,
+    "score": 4.29,
+    "response_rate": 49,
+    "survey_url": "https://enkater.goteborg.se/2026/UTBILDNING_F%C3%B6r%C3%A4ldrar%20och%20barn%20om%20f%C3%B6rskolan/Sydv%C3%A4st%202/%C3%96rtugsgatan%202%20f%C3%B6rskola/%C3%96rtugsgatan%202%20f%C3%B6rskola%20Uppskalni.pdf"
+  }
+]

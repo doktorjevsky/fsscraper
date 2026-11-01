@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+  <title>Förskolekollen Göteborg 2026</title>
+  <style>
+    :root{--ink:#14211c;--muted:#5c6b65;--panel:#fffffff2;--accent:#0f6e56}
+    *{box-sizing:border-box}html,body,#map{width:100%;height:100%;margin:0}body{overflow:hidden;background:#edf0e7;font:14px/1.4 system-ui,sans-serif;color:var(--ink)}
+    #map{display:block;touch-action:none;cursor:grab}#map.dragging{cursor:grabbing}.sea{fill:#edf0e7}.land{fill:#f5f6f1;stroke:#d6ddd3;stroke-width:.5}.coastline{fill:none;stroke:#80b5c3;stroke-width:1.2;vector-effect:non-scaling-stroke}.water{fill:#b8d7df;stroke:#9bc5d0;stroke-width:.6}.waterway{fill:none;stroke:#82b9c7;stroke-width:2.4;vector-effect:non-scaling-stroke}.road{fill:none;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}.secondary{stroke:#d6d1c6;stroke-width:1}.primary{stroke:#c7bdad;stroke-width:1.4}.trunk{stroke:#d9b896;stroke-width:1.8}.motorway{stroke:#d69b78;stroke-width:2.2}
+    .marker{cursor:pointer;stroke:#fff;stroke-width:2;vector-effect:non-scaling-stroke;filter:drop-shadow(0 1px 2px #23352d66)}.marker:hover,.marker.active{stroke:#15251e;stroke-width:2.5}.user-radius{fill:#2678ff12;stroke:#2678ff;stroke-width:1.5;stroke-dasharray:5 4;vector-effect:non-scaling-stroke;pointer-events:none}.user-location-ring{fill:#2678ff26;stroke:#2678ff;stroke-width:2;vector-effect:non-scaling-stroke;pointer-events:none}.user-location-dot{fill:#2678ff;stroke:#fff;stroke-width:3;vector-effect:non-scaling-stroke;filter:drop-shadow(0 1px 3px #173f8566);pointer-events:auto;cursor:help}.location-arrived .user-location-ring{animation:location-arrived .75s ease-out}.value-changed{animation:value-changed .28s ease-out}@keyframes location-arrived{0%{stroke-width:10;stroke-opacity:0}45%{stroke-opacity:1}100%{stroke-width:2;stroke-opacity:1}}@keyframes value-changed{50%{color:#2678ff;transform:scale(1.08)}}
+    .toolbar,.controls,.popup,.origin-popup{position:fixed;z-index:3;background:var(--panel);box-shadow:0 6px 24px #1a2d252b;backdrop-filter:blur(10px)}.toolbar{top:16px;left:50%;width:calc(100% - 32px);max-width:1040px;transform:translateX(-50%);display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;padding:9px;border:1px solid #ffffffb8;border-radius:16px;white-space:nowrap}.brand{display:flex;align-items:baseline;gap:7px;padding:0 7px}.brand strong{font-size:15px}.brand span{color:var(--muted);font-size:12px}.toolbar-divider{width:1px;height:30px;background:#dfe5e1}.score-filters{display:flex;gap:2px;padding:3px;border-radius:10px;background:#edf1ee}.filter-button{display:flex;align-items:center;gap:6px;border:0;border-radius:8px;background:transparent;padding:7px 8px;color:var(--muted);font:700 12px system-ui;cursor:pointer}.filter-button:hover{color:var(--ink)}.filter-button.active{background:white;color:var(--ink);box-shadow:0 2px 7px #1a2d2518}.dot{width:8px;height:8px;border-radius:50%}.range-filters{display:flex;align-items:stretch;gap:8px}.range-filter{display:grid;width:152px;grid-template-columns:1fr auto;gap:6px 10px;padding:7px 9px;border-radius:10px;background:#f1f4f2;color:var(--muted);font-size:12px;font-weight:700}.response-filter{width:180px}.range-filter output{justify-self:end;color:var(--ink);font-variant-numeric:tabular-nums;text-align:right}.range-filter input{grid-column:1/-1;width:100%;height:4px;margin:0;appearance:none;border-radius:999px;background:linear-gradient(to right,#2678ff var(--fill,0%),#d8dfdb var(--fill,0%));cursor:pointer}.range-filter input::-webkit-slider-thumb{width:15px;height:15px;appearance:none;border:2px solid white;border-radius:50%;background:#2678ff;box-shadow:0 1px 4px #173f854d}.range-filter input::-moz-range-thumb{width:11px;height:11px;border:2px solid white;border-radius:50%;background:#2678ff;box-shadow:0 1px 4px #173f854d}.range-filter input:focus-visible{outline:2px solid #2678ff;outline-offset:4px}.radius-value{width:50px}.response-value{width:52px}.filter-count{display:inline-block;width:119px;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}.filter-number{display:inline-block;width:3ch;text-align:right;font-weight:inherit}.location-control{display:flex;align-items:center;justify-content:center;gap:5px;width:72px;height:52px;border:0;border-radius:10px;background:#edf1ee;padding:7px 8px;color:var(--accent);font:800 12px system-ui;cursor:pointer}.location-control:hover,.location-control[aria-expanded="true"]{background:#e1ebe6}.location-control .control-icon{width:15px;height:15px}
+    .controls{left:16px;bottom:22px;display:grid;border-radius:10px;overflow:hidden}.controls button{display:grid;width:38px;height:36px;place-items:center;border:0;border-bottom:1px solid #dfe5e1;background:white;color:var(--ink);font:700 20px system-ui;cursor:pointer}.controls button:last-child{border:0}.controls button:hover{background:#f0f4f1}.controls button:disabled{cursor:wait;color:#89958f}.control-icon{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8}.location-message{position:fixed;z-index:3;left:64px;bottom:22px;display:none;max-width:280px;padding:9px 12px;border-radius:9px;background:var(--panel);box-shadow:0 6px 24px #1a2d252b;color:var(--muted);font-size:12px}.location-message.visible{display:block}.address-panel{position:absolute;z-index:4;top:calc(100% + 8px);right:8px;width:330px;padding:13px;border:1px solid #ffffffb8;border-radius:13px;background:var(--panel);box-shadow:0 6px 24px #1a2d252b;opacity:0;visibility:hidden;transform:translateY(-6px);transition:opacity .18s ease,transform .18s ease,visibility .18s;pointer-events:none}.address-panel.open{opacity:1;visibility:visible;transform:translateY(0);pointer-events:auto}.address-panel-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}.address-panel-head label{font-size:12px;font-weight:800}.current-location{display:flex;align-items:center;gap:5px;border:0;border-radius:7px;background:#edf1ee;padding:6px 8px;color:var(--accent);font:800 12px system-ui;cursor:pointer}.current-location:hover{background:#e2e9e5}.current-location:disabled{cursor:wait;color:#89958f}.current-location .control-icon{width:14px;height:14px}.address-form-row{display:flex;gap:6px}.address-form-row input{min-width:0;flex:1;border:1px solid #cfd8d3;border-radius:8px;padding:8px 9px;color:var(--ink);font:14px system-ui;outline:none}.address-form-row input:focus{border-color:#2678ff;box-shadow:0 0 0 2px #2678ff24}.address-form-row button{border:0;border-radius:8px;background:var(--accent);padding:0 13px;color:white;font-weight:800;cursor:pointer}.address-results{display:grid;gap:3px;margin-top:7px;max-height:210px;overflow:auto}.address-result{border:0;border-radius:7px;background:transparent;padding:7px 8px;color:var(--ink);text-align:left;cursor:pointer}.address-result:hover,.address-result:focus-visible{background:#edf1ee}.address-empty{padding:6px 2px 1px;color:var(--muted);font-size:12px}.origin-popup{display:none;min-width:150px;padding:9px 11px;border-radius:9px;transform:translate(-50%,calc(-100% - 12px));pointer-events:none;font-size:12px}.origin-popup.visible{display:block}.origin-popup strong{display:block}.origin-popup span{color:var(--muted);font-variant-numeric:tabular-nums}
+    .popup{display:none;width:286px;padding:16px;border-radius:13px;transform:translate(-50%,calc(-100% - 13px));pointer-events:none}.popup.visible{display:block}.popup:after{content:"";position:absolute;left:50%;bottom:-7px;width:14px;height:14px;background:white;transform:translateX(-50%) rotate(45deg)}.area{color:var(--accent);font-size:11px;font-weight:800;text-transform:uppercase}.name{margin:4px 0 11px;font-size:17px;font-weight:750}.score{display:inline-block;padding:5px 10px;border-radius:999px;color:white;font-size:16px;font-weight:850}.meta{margin-left:8px;color:var(--muted)}.hint{margin-top:11px;color:var(--muted);font-size:12px}.attribution{position:fixed;z-index:2;right:6px;bottom:3px;padding:2px 5px;border-radius:3px;background:#ffffffc9;color:#53645c;font-size:10px}.attribution a{color:inherit}
+    @media(max-width:720px){.toolbar{top:8px;width:calc(100% - 16px);max-width:none;gap:6px}.brand{width:100%;justify-content:center}.toolbar-divider{display:none}.score-filters{max-width:100%;overflow-x:auto}.filter-button{padding:6px 8px}.range-filters{justify-content:center;gap:6px}.filter-count{min-width:auto;padding:0 5px}.controls{left:9px;bottom:9px}.location-message{left:55px;bottom:9px}.address-panel{right:0;width:min(330px,calc(100vw - 16px))}.popup{width:min(286px,calc(100vw - 20px))}}
+  </style>
+</head>
+<body>
+  <svg id="map" viewBox="MAP_VIEWBOX" role="img" aria-label="Karta över Göteborgs förskolor"><g id="viewport">BASEMAP_SVG<g id="markers">MARKERS_SVG</g></g></svg>
+  <div class="toolbar"><div class="brand"><strong>Förskolekollen</strong><span class="filter-count">2026 · <b id="filter-number" class="filter-number">312</b> förskolor</span></div><i class="toolbar-divider"></i><div class="score-filters" role="group" aria-label="Filtrera på helhetsomdöme"><button class="filter-button active" data-band="all">Alla</button><button class="filter-button" data-band="high"><i class="dot" style="background:#16834b"></i>4,5–5,0</button><button class="filter-button" data-band="medium"><i class="dot" style="background:#dfa900"></i>4,0–4,49</button><button class="filter-button" data-band="low"><i class="dot" style="background:#c9463d"></i>Under 4,0</button></div><div class="range-filters"><label class="range-filter radius-filter"><span>Radie</span><output id="radius-value" class="radius-value" for="radius-filter">Alla</output><input id="radius-filter" type="range" min="0" max="20" step="0.05" value="0" aria-label="Filtrera på avstånd från min plats"></label><label class="range-filter response-filter"><span>Svarsfrekvens</span><output id="response-value" class="response-value" for="response-filter">Alla</output><input id="response-filter" type="range" min="0" max="100" step="1" value="0" aria-label="Minsta svarsfrekvens"></label></div><button id="address-toggle" class="location-control" aria-label="Byt utgångspunkt" title="Byt utgångspunkt"><svg class="control-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Plats</button><section id="address-panel" class="address-panel" aria-label="Byt utgångspunkt"><div class="address-panel-head"><label for="address-input">Byt utgångspunkt</label><button id="locate" class="current-location" type="button"><svg class="control-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg>Min plats</button></div><form id="address-form"><div class="address-form-row"><input id="address-input" type="search" placeholder="Exempel: Vasagatan 1" autocomplete="street-address"><button type="submit">Sök</button></div></form><div id="address-results" class="address-results" aria-live="polite"></div></section></div>
+  <div class="controls"><button id="zoom-in" aria-label="Zooma in" title="Zooma in">+</button><button id="zoom-out" aria-label="Zooma ut" title="Zooma ut">−</button></div>
+  <div id="location-message" class="location-message" role="status" aria-live="polite"></div>
+  <article id="popup" class="popup"></article>
+  <aside id="origin-popup" class="origin-popup"></aside>
+  <div class="attribution">Kartdata © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> · extract BBBike</div>
+  <script>
+    const schools=SCHOOL_DATA;
+    const addressData=ADDRESS_DATA;
+    const mapWidth=MAP_WIDTH;
+    const mapHeight=MAP_HEIGHT;
+    const bounds={minLon:MAP_MIN_LON,minLat:MAP_MIN_LAT,maxLon:MAP_MAX_LON,maxLat:MAP_MAX_LAT};
+    const svg=document.getElementById('map');
+    const popup=document.getElementById('popup');
+    const originPopup=document.getElementById('origin-popup');
+    const color=score=>score>=4.5?'#16834b':score>=4?'#dfa900':'#c9463d';
+    const escapeHtml=value=>String(value).replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+
+    class OfflineMap{
+      constructor(){this.view={x:0,y:0,w:mapWidth,h:mapHeight};this.zoom=1;this.markers=[...document.querySelectorAll('.marker')];this.drag=null;this.locationMarker=null;this.animationFrame=null;this.enhanceMarkers();this.apply();this.bind()}
+      enhanceMarkers(){this.markers.forEach(marker=>{const school=schools[Number(marker.dataset.index)];marker.addEventListener('pointerenter',()=>showPopup(school,marker));marker.addEventListener('pointerleave',()=>{if(activeMarker===marker)hidePopup()});marker.addEventListener('focus',()=>showPopup(school,marker));marker.addEventListener('blur',()=>{if(activeMarker===marker)hidePopup()})})}
+      apply(){svg.setAttribute('viewBox',`${this.view.x} ${this.view.y} ${this.view.w} ${this.view.h}`);for(const marker of this.markers)marker.setAttribute('r',5.2/this.zoom);if(this.locationMarker){this.locationMarker.ring.setAttribute('r',12/this.zoom);this.locationMarker.dot.setAttribute('r',5.5/this.zoom)}positionPopup();positionOriginPopup()}
+      setZoom(next,anchor={x:this.view.x+this.view.w/2,y:this.view.y+this.view.h/2}){if(this.animationFrame)cancelAnimationFrame(this.animationFrame);const zoom=Math.max(1,Math.min(14,next));const rx=(anchor.x-this.view.x)/this.view.w;const ry=(anchor.y-this.view.y)/this.view.h;const w=mapWidth/zoom,h=mapHeight/zoom;this.view={x:anchor.x-rx*w,y:anchor.y-ry*h,w,h};this.zoom=zoom;this.constrain();this.apply()}
+      reset(){this.view={x:0,y:0,w:mapWidth,h:mapHeight};this.zoom=1;this.apply()}
+      centerAt(x,y,zoom=Math.max(this.zoom,6),animate=false){const targetZoom=Math.max(1,Math.min(14,zoom));const target={w:mapWidth/targetZoom,h:mapHeight/targetZoom};target.x=Math.max(0,Math.min(mapWidth-target.w,x-target.w/2));target.y=Math.max(0,Math.min(mapHeight-target.h,y-target.h/2));if(!animate||matchMedia('(prefers-reduced-motion: reduce)').matches){this.view=target;this.zoom=targetZoom;this.apply();return}if(this.animationFrame)cancelAnimationFrame(this.animationFrame);const start={...this.view};const started=performance.now();const frame=now=>{const progress=Math.min(1,(now-started)/520);const eased=1-(1-progress)**3;this.view={x:start.x+(target.x-start.x)*eased,y:start.y+(target.y-start.y)*eased,w:start.w+(target.w-start.w)*eased,h:start.h+(target.h-start.h)*eased};this.zoom=mapWidth/this.view.w;this.apply();if(progress<1)this.animationFrame=requestAnimationFrame(frame);else this.animationFrame=null};this.animationFrame=requestAnimationFrame(frame)}
+      showLocation(x,y,radius=0,animate=false){
+        if(!this.locationMarker){const namespace='http://www.w3.org/2000/svg';const group=document.createElementNS(namespace,'g');const radiusCircle=document.createElementNS(namespace,'circle');const ring=document.createElementNS(namespace,'circle');const dot=document.createElementNS(namespace,'circle');radiusCircle.setAttribute('class','user-radius');ring.setAttribute('class','user-location-ring');dot.setAttribute('class','user-location-dot');dot.addEventListener('pointerenter',showOriginPopup);dot.addEventListener('pointerleave',hideOriginPopup);group.append(radiusCircle,ring,dot);document.getElementById('viewport').append(group);this.locationMarker={group,radiusCircle,ring,dot}}
+        for(const element of [this.locationMarker.radiusCircle,this.locationMarker.ring,this.locationMarker.dot]){element.setAttribute('cx',x);element.setAttribute('cy',y)}
+        if(animate){this.locationMarker.group.classList.remove('location-arrived');void this.locationMarker.group.getBoundingClientRect();this.locationMarker.group.classList.add('location-arrived')}
+        this.setLocationRadius(radius);
+        const radiusUnits=radius*this.mapUnitsPerKm();
+        this.centerAt(x,y,radius?mapWidth/(radiusUnits*2.35):Math.max(this.zoom,6),animate);
+      }
+      mapUnitsPerKm(){return mapWidth/((bounds.maxLon-bounds.minLon)*111.32*Math.cos((bounds.minLat+bounds.maxLat)/2*Math.PI/180))}
+      setLocationRadius(radius){if(!this.locationMarker)return;this.locationMarker.radiusCircle.setAttribute('r',radius*this.mapUnitsPerKm());this.locationMarker.radiusCircle.style.display=radius?'':'none'}
+      constrain(){this.view.x=Math.max(0,Math.min(mapWidth-this.view.w,this.view.x));this.view.y=Math.max(0,Math.min(mapHeight-this.view.h,this.view.y))}
+      point(event){const point=svg.createSVGPoint();point.x=event.clientX;point.y=event.clientY;return point.matrixTransform(svg.getScreenCTM().inverse())}
+      bind(){
+        svg.addEventListener('wheel',event=>{event.preventDefault();this.setZoom(this.zoom*(event.deltaY<0?1.35:1/1.35),this.point(event))},{passive:false});
+        svg.addEventListener('pointerdown',event=>{if(event.target.classList.contains('marker')||event.target.classList.contains('user-location-dot'))return;this.drag={x:event.clientX,y:event.clientY,viewX:this.view.x,viewY:this.view.y};svg.setPointerCapture(event.pointerId);svg.classList.add('dragging');hidePopup();hideOriginPopup()});
+        svg.addEventListener('pointermove',event=>{if(!this.drag)return;const rect=svg.getBoundingClientRect();this.view.x=this.drag.viewX-(event.clientX-this.drag.x)*this.view.w/rect.width;this.view.y=this.drag.viewY-(event.clientY-this.drag.y)*this.view.h/rect.height;this.constrain();this.apply()});
+        svg.addEventListener('pointerup',()=>{this.drag=null;svg.classList.remove('dragging')});
+        svg.addEventListener('pointercancel',()=>{this.drag=null;svg.classList.remove('dragging')});
+        svg.addEventListener('click',event=>{if(!event.target.classList.contains('marker'))hidePopup()});
+      }
+    }
+
+    let activeMarker=null;
+    let userLocation=null;
+    let originLabel='Vald plats';
+    function showPopup(school,marker){
+      if(activeMarker)activeMarker.classList.remove('active');activeMarker=marker;marker.classList.add('active');
+      popup.innerHTML=`<div class="area">${escapeHtml(school.area)}</div><div class="name">${escapeHtml(school.name)}</div><span class="score" style="background:${color(school.score)}">${school.score.toFixed(2).replace('.',',')}</span><span class="meta">Svarsfrekvens ${school.response_rate}%</span><div class="hint">Klicka på markören för att öppna enkäten</div>`;
+      popup.classList.add('visible');positionPopup();
+    }
+    function positionPopup(){if(!activeMarker||!popup.classList.contains('visible'))return;const point=svg.createSVGPoint();point.x=Number(activeMarker.getAttribute('cx'));point.y=Number(activeMarker.getAttribute('cy'));const screen=point.matrixTransform(svg.getScreenCTM());const half=popup.offsetWidth/2;popup.style.left=`${Math.max(half+8,Math.min(innerWidth-half-8,screen.x))}px`;popup.style.top=`${Math.max(popup.offsetHeight+18,screen.y)}px`}
+    function hidePopup(){popup.classList.remove('visible');if(activeMarker)activeMarker.classList.remove('active');activeMarker=null}
+    function showOriginPopup(){if(!userLocation)return;originPopup.innerHTML=`<strong>${escapeHtml(originLabel)}</strong><span>${userLocation.lat.toFixed(5)}, ${userLocation.lng.toFixed(5)}</span>`;originPopup.classList.add('visible');positionOriginPopup()}
+    function positionOriginPopup(){if(!userLocation||!originPopup.classList.contains('visible'))return;const point=svg.createSVGPoint();point.x=userLocation.x;point.y=userLocation.y;const screen=point.matrixTransform(svg.getScreenCTM());const half=originPopup.offsetWidth/2;originPopup.style.left=`${Math.max(half+8,Math.min(innerWidth-half-8,screen.x))}px`;originPopup.style.top=`${Math.max(originPopup.offsetHeight+18,screen.y)}px`}
+    function hideOriginPopup(){originPopup.classList.remove('visible')}
+
+    const gbgMap=window.gbgMap=new OfflineMap();
+    const projectLocation=(longitude,latitude)=>({x:(longitude-bounds.minLon)/(bounds.maxLon-bounds.minLon)*mapWidth,y:(bounds.maxLat-latitude)/(bounds.maxLat-bounds.minLat)*mapHeight});
+    const distanceKm=(a,b)=>{const radians=value=>value*Math.PI/180;const dLat=radians(b.lat-a.lat);const dLon=radians(b.lng-a.lng);const h=Math.sin(dLat/2)**2+Math.cos(radians(a.lat))*Math.cos(radians(b.lat))*Math.sin(dLon/2)**2;return 6371*2*Math.atan2(Math.sqrt(h),Math.sqrt(1-h))};
+    const locationButton=document.getElementById('locate');
+    const locationMessage=document.getElementById('location-message');
+    const addressToggle=document.getElementById('address-toggle');
+    const addressPanel=document.getElementById('address-panel');
+    const addressForm=document.getElementById('address-form');
+    const addressInput=document.getElementById('address-input');
+    const addressResults=document.getElementById('address-results');
+    const radiusFilter=document.getElementById('radius-filter');
+    const radiusValue=document.getElementById('radius-value');
+    const responseFilter=document.getElementById('response-filter');
+    const responseValue=document.getElementById('response-value');
+    let activeScoreBand='all';
+    let activeRadius=0;
+    let minimumResponse=0;
+    let locationMessageTimer;
+    let addressSearchTimer;
+    let localAddresses=null;
+    let exactAddresses=null;
+    const formatRadius=value=>!value?'Alla':value<1?`${Math.round(value*1000)} m`:`${String(Number(value.toFixed(2))).replace('.',',')} km`;
+    const normalizeAddress=value=>value.toLocaleLowerCase('sv-SE').normalize('NFKC').split(',')[0].replace(/\b\d{3}\s?\d{2}\b/g,' ').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+    function ensureAddressIndex(){
+      if(localAddresses)return;
+      localAddresses=addressData.addresses.map(([streetId,number,lng,lat])=>{const label=`${addressData.streets[streetId]} ${number}`;return{key:normalizeAddress(label),label,lng,lat}});
+      exactAddresses=new Map(localAddresses.map(address=>[address.key,address]));
+    }
+    function animateValue(element){element.classList.remove('value-changed');void element.offsetWidth;element.classList.add('value-changed')}
+    function useMapLocation(lat,lng,label,message){const point=projectLocation(lng,lat);originLabel=label;userLocation={lat,lng,...point};hideOriginPopup();gbgMap.showLocation(point.x,point.y,activeRadius,true);applyFilters();reportLocation(message)}
+    function resetRadiusFilter(){activeRadius=0;radiusFilter.value='0';radiusFilter.style.setProperty('--fill','0%');radiusValue.textContent='Alla';gbgMap.setLocationRadius(0);applyFilters()}
+    function reportLocation(message,isError=false){clearTimeout(locationMessageTimer);locationMessage.textContent=message;locationMessage.style.color=isError?'#9b312c':'';locationMessage.classList.add('visible');locationMessageTimer=setTimeout(()=>locationMessage.classList.remove('visible'),4000)}
+    function requestLocation(){
+      if(locationButton.disabled)return;
+      if(!navigator.geolocation){resetRadiusFilter();reportLocation('Din webbläsare stöder inte platsvisning.',true);return}
+      locationButton.disabled=true;locationButton.title='Hämtar din plats…';
+      navigator.geolocation.getCurrentPosition(position=>{locationButton.disabled=false;locationButton.title='Centrera på min plats';useMapLocation(position.coords.latitude,position.coords.longitude,'Min plats',activeRadius?`Visar förskolor inom ${formatRadius(activeRadius)}.`:'Din plats visas på kartan.')},error=>{locationButton.disabled=false;locationButton.title='Visa min plats';if(activeRadius)resetRadiusFilter();reportLocation(error.code===1?'Platsåtkomst nekades. Tillåt plats i webbläsaren och försök igen.':'Det gick inte att hämta din plats.',true)},{enableHighAccuracy:true,timeout:10000,maximumAge:60000});
+    }
+    locationButton.onclick=()=>{addressPanel.classList.remove('open');addressToggle.setAttribute('aria-expanded','false');requestLocation()};
+    addressToggle.setAttribute('aria-expanded','false');
+    addressToggle.onclick=()=>{const open=!addressPanel.classList.contains('open');addressPanel.classList.toggle('open',open);addressToggle.setAttribute('aria-expanded',String(open));locationMessage.classList.remove('visible');if(open){ensureAddressIndex();addressInput.focus()}};
+    function selectAddress(address){addressInput.value=address.label;addressPanel.classList.remove('open');addressToggle.setAttribute('aria-expanded','false');useMapLocation(address.lat,address.lng,address.label,`Utgångspunkt: ${address.label}.`)}
+    function renderAddressResults(matches,message=''){
+      addressResults.replaceChildren();
+      if(message){const empty=document.createElement('div');empty.className='address-empty';empty.textContent=message;addressResults.append(empty);return}
+      matches.forEach(address=>{const button=document.createElement('button');button.type='button';button.className='address-result';button.textContent=address.label;button.onclick=()=>selectAddress(address);addressResults.append(button)});
+    }
+    function findAddressMatches(query){
+      const tokens=query.split(' ');const matches=[];
+      for(const address of localAddresses){let rank=-1;if(address.key.startsWith(query))rank=0;else if(tokens.every(token=>address.key.includes(token)))rank=1;if(rank>=0)matches.push({address,rank})}
+      matches.sort((a,b)=>a.rank-b.rank||a.address.label.localeCompare(b.address.label,'sv'));
+      return matches.slice(0,8).map(match=>match.address);
+    }
+    function suggestAddresses(){ensureAddressIndex();const query=normalizeAddress(addressInput.value);if(query.length<3){addressResults.replaceChildren();return}const matches=findAddressMatches(query);renderAddressResults(matches,matches.length?'':'Ingen adress hittades i kartområdet.')}
+    addressInput.addEventListener('input',()=>{clearTimeout(addressSearchTimer);addressSearchTimer=setTimeout(suggestAddresses,100)});
+    addressForm.addEventListener('submit',event=>{
+      event.preventDefault();ensureAddressIndex();const query=normalizeAddress(addressInput.value);
+      if(query.length<3){renderAddressResults([],'Skriv minst tre tecken.');return}
+      const exact=exactAddresses.get(query);if(exact){selectAddress(exact);return}
+      const matches=findAddressMatches(query);renderAddressResults(matches,matches.length?'':'Ingen adress hittades i kartområdet.');
+    });
+    function applyFilters(){
+      let visible=0;
+      gbgMap.markers.forEach(marker=>{const school=schools[Number(marker.dataset.index)];const scoreMatch=activeScoreBand==='all'||activeScoreBand==='high'&&school.score>=4.5||activeScoreBand==='medium'&&school.score>=4&&school.score<4.5||activeScoreBand==='low'&&school.score<4;const radiusMatch=!activeRadius||userLocation&&distanceKm(userLocation,school)<=activeRadius;const responseMatch=!minimumResponse||school.response_rate>=minimumResponse;const show=scoreMatch&&radiusMatch&&responseMatch;marker.closest('a').style.display=show?'':'none';if(show)visible++;else if(activeMarker===marker)hidePopup()});
+      const filterNumber=document.getElementById('filter-number');if(filterNumber.textContent!==String(visible)){filterNumber.textContent=visible;animateValue(filterNumber)}
+      document.querySelectorAll('.filter-button').forEach(button=>button.classList.toggle('active',button.dataset.band===activeScoreBand));
+    }
+    document.querySelectorAll('.filter-button').forEach(button=>button.addEventListener('click',()=>{activeScoreBand=button.dataset.band;applyFilters()}));
+    radiusFilter.addEventListener('input',()=>{activeRadius=Number(radiusFilter.value);radiusValue.textContent=formatRadius(activeRadius);animateValue(radiusValue);radiusFilter.style.setProperty('--fill',`${activeRadius/20*100}%`);if(userLocation){if(activeRadius)gbgMap.showLocation(userLocation.x,userLocation.y,activeRadius);else gbgMap.setLocationRadius(0);applyFilters();reportLocation(activeRadius?`Visar förskolor inom ${formatRadius(activeRadius)}.`:'Visar alla avstånd.')}else if(activeRadius)requestLocation();else applyFilters()});
+    responseFilter.addEventListener('input',()=>{minimumResponse=Number(responseFilter.value);responseValue.textContent=minimumResponse?`≥ ${minimumResponse} %`:'Alla';animateValue(responseValue);responseFilter.style.setProperty('--fill',`${minimumResponse}%`);applyFilters()});
+    document.getElementById('zoom-in').onclick=()=>gbgMap.setZoom(gbgMap.zoom*1.5);
+    document.getElementById('zoom-out').onclick=()=>gbgMap.setZoom(gbgMap.zoom/1.5);
+    addEventListener('resize',()=>{positionPopup();positionOriginPopup()});addEventListener('keydown',event=>{if(event.key==='Escape'){hidePopup();hideOriginPopup();addressPanel.classList.remove('open');addressToggle.setAttribute('aria-expanded','false')}});
+  </script>
+</body>
+</html>
