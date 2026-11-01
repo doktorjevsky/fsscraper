@@ -5,15 +5,20 @@ import html
 import json
 import math
 from pathlib import Path
+from urllib.parse import quote
 
 DATA = Path("data/schools.json")
 BASEMAP = Path("data/basemap.json")
 ADDRESSES = Path("data/addresses.json")
 OUTPUTS = (Path("public/index.html"), Path("public/map.html"), Path("docs/index.html"))
+SURVEY_ROOT = "2026\\UTBILDNING_Föräldrar och barn om förskolan"
 
 
 def build():
     schools = json.loads(DATA.read_text(encoding="utf-8"))
+    for school in schools:
+        category = f'{SURVEY_ROOT}\\{school["area"]}\\{school["name"]}'
+        school["source_url"] = "https://enkater.goteborg.se/ListEnkater.aspx?Kat=" + quote(category, safe="")
     basemap = json.loads(BASEMAP.read_text(encoding="utf-8"))
     addresses = json.loads(ADDRESSES.read_text(encoding="utf-8"))
     min_lon, min_lat, max_lon, max_lat = basemap["bounds"]
@@ -58,7 +63,7 @@ def build():
             f'{school["name"]} — {score:.2f}, svarsfrekvens {school["response_rate"]}%',
             quote=False,
         )
-        url = html.escape(school["survey_url"], quote=True)
+        url = html.escape(school["source_url"], quote=True)
         markers.append(
             f'<a href="{url}" target="_blank" rel="noopener">'
             f'<circle class="marker" data-index="{index}" cx="{x:.2f}" cy="{y:.2f}" '
