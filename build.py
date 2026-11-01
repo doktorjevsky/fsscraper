@@ -9,7 +9,7 @@ import math
 from pathlib import Path
 from urllib.parse import quote
 
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 
 DATA = Path("data/schools.json")
 BASEMAP = Path("data/basemap.json")
@@ -51,6 +51,10 @@ def build():
         draw.polygon(pixels(polygon[0]), fill="#f5f6f1")
         for hole in polygon[1:]:
             draw.polygon(pixels(hole), fill="#edf0e7")
+    for polygon in basemap["green"]:
+        draw.polygon(pixels(polygon[0]), fill="#dfe9d7")
+        for hole in polygon[1:]:
+            draw.polygon(pixels(hole), fill="#f5f6f1")
     for line in basemap["coastline"]:
         draw.line(pixels(line), fill="#80b5c3", width=round(1.2 * raster_scale), joint="curve")
     for polygon in basemap["water"]:
@@ -59,11 +63,40 @@ def build():
             draw.polygon(pixels(hole), fill="#f5f6f1")
     for line in basemap["waterways"]:
         draw.line(pixels(line), fill="#82b9c7", width=round(2.4 * raster_scale), joint="curve")
-    road_styles = {"secondary": ("#d6d1c6", 1), "primary": ("#c7bdad", 1.4), "trunk": ("#d9b896", 1.8), "motorway": ("#d69b78", 2.2)}
-    for road_class in ("secondary", "primary", "trunk", "motorway"):
+    road_styles = {
+        "residential": ("#c5c6c0", .55),
+        "tertiary": ("#bdbbb3", .78),
+        "secondary": ("#b5ad9f", 1.05),
+        "primary": ("#dfbd93", 1.3),
+        "trunk": ("#e2a878", 1.75),
+        "motorway": ("#d88863", 2.15),
+    }
+    for road_class in ("residential", "tertiary", "secondary", "primary", "trunk", "motorway"):
         color, stroke_width = road_styles[road_class]
         for line in basemap["roads"][road_class]:
-            draw.line(pixels(line), fill=color, width=max(1, round(stroke_width * raster_scale)), joint="curve")
+            points = pixels(line)
+            if road_class in {"primary", "trunk", "motorway"}:
+                draw.line(points, fill="#f8f7f1", width=max(1, round((stroke_width + .8) * raster_scale)), joint="curve")
+            draw.line(points, fill=color, width=max(1, round(stroke_width * raster_scale)), joint="curve")
+    for line in basemap["railways"]:
+        draw.line(pixels(line), fill="#8b8580", width=max(1, round(.7 * raster_scale)), joint="curve")
+
+    label_sizes = {"city": 17, "town": 13, "village": 11, "suburb": 9, "quarter": 8, "neighbourhood": 7}
+    label_priority = {"city": 0, "town": 1, "village": 2, "suburb": 3, "quarter": 4, "neighbourhood": 5,
+                      "road-motorway": 6, "road-trunk": 6, "road-primary": 7, "road-secondary": 8, "road-tertiary": 9}
+    fonts = {size: ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", size * raster_scale) for size in set(label_sizes.values()) | {6}}
+    occupied = []
+    for lon, lat, text, kind in sorted(basemap["labels"], key=lambda label: label_priority.get(label[3], 99)):
+        size = label_sizes.get(kind, 6)
+        font = fonts[size]
+        x, y = project((lon, lat)); x *= raster_scale; y *= raster_scale
+        box = draw.textbbox((x, y), text, font=font, anchor="mm", stroke_width=raster_scale)
+        padded = (box[0] - 3, box[1] - 2, box[2] + 3, box[3] + 2)
+        if any(not (padded[2] < used[0] or padded[0] > used[2] or padded[3] < used[1] or padded[1] > used[3]) for used in occupied):
+            continue
+        occupied.append(padded)
+        color = "#5f6863" if kind.startswith("road-") else "#46514c"
+        draw.text((x, y), text, font=font, anchor="mm", fill=color, stroke_width=raster_scale, stroke_fill="#f5f6f1")
     raster_buffer = io.BytesIO()
     image.save(raster_buffer, format="WEBP", lossless=True, method=6)
     raster_bytes = raster_buffer.getvalue()

@@ -8,7 +8,15 @@ import re
 from pathlib import Path
 
 VIEW = (11.68, 57.53, 12.24, 57.85)
-ROAD_CLASSES = {"motorway", "trunk", "primary", "secondary"}
+ROAD_GROUPS = {
+    "motorway": {"motorway", "motorway_link"},
+    "trunk": {"trunk", "trunk_link"},
+    "primary": {"primary", "primary_link"},
+    "secondary": {"secondary", "secondary_link"},
+    "tertiary": {"tertiary", "tertiary_link"},
+    "residential": {"residential", "unclassified", "living_street"},
+}
+ROAD_CLASS = {highway: road_class for road_class, highways in ROAD_GROUPS.items() for highway in highways}
 
 
 def simplify(points, tolerance):
@@ -90,8 +98,9 @@ def main():
     parser.add_argument("--addresses-output", default="data/addresses.json")
     args = parser.parse_args()
 
-    result = {"bounds": VIEW, "land": [], "coastline": [], "water": [], "roads": {key: [] for key in ROAD_CLASSES}, "waterways": []}
+    result = {"bounds": VIEW, "land": [], "green": [], "coastline": [], "water": [], "roads": {key: [] for key in ROAD_GROUPS}, "railways": [], "waterways": [], "labels": []}
     addresses = {}
+    road_labels = {}
     with lzma.open(args.source, "rt", encoding="utf-8") as source:
         for raw_line in source:
             raw_line = raw_line.strip().rstrip(",")
@@ -126,17 +135,40 @@ def main():
             water = properties.get("water")
             landuse = properties.get("landuse")
             waterway = properties.get("waterway")
+            railway = properties.get("railway")
+            leisure = properties.get("leisure")
+            place = properties.get("place")
+            name = properties.get("name")
 
-            if kind == "LineString" and highway in ROAD_CLASSES:
-                result["roads"][highway].append(rounded(coordinates, 0.00012))
+            if kind == "Point" and name and place in {"city", "town", "village", "suburb", "quarter", "neighbourhood"}:
+                lon, lat = coordinates
+                if VIEW[0] <= lon <= VIEW[2] and VIEW[1] <= lat <= VIEW[3]:
+                    result["labels"].append([round(lon, 5), round(lat, 5), str(name), place])
+
+            if kind == "LineString" and highway in ROAD_CLASS:
+                tolerance = 0.00006 if ROAD_CLASS[highway] in {"tertiary", "residential"} else 0.0001
+                result["roads"][ROAD_CLASS[highway]].append(rounded(coordinates, tolerance))
+                road_class = ROAD_CLASS[highway]
+                if name and road_class != "residential":
+                    key = (normalize(name), road_class)
+                    if key not in road_labels or len(coordinates) > road_labels[key][0]:
+                        road_labels[key] = (len(coordinates), center(coordinates), str(name), road_class)
             elif kind == "LineString" and natural == "coastline":
                 result["coastline"].append(rounded(coordinates, 0.00012))
             elif kind == "LineString" and waterway in {"river", "canal"}:
                 result["waterways"].append(rounded(coordinates, 0.00008))
+            elif kind == "LineString" and railway in {"rail", "tram"}:
+                result["railways"].append(rounded(coordinates, 0.00008))
             elif kind == "MultiPolygon" and natural == "coastline":
                 result["land"].extend(polygons(coordinates, 0.00015))
             elif kind == "MultiPolygon" and (natural == "water" or water or landuse in {"reservoir", "basin"}):
                 result["water"].extend(polygons(coordinates, 0.0001))
+            elif kind == "MultiPolygon" and (natural == "wood" or landuse in {"forest", "cemetery", "recreation_ground"} or leisure in {"park", "garden", "nature_reserve"}):
+                result["green"].extend(polygons(coordinates, 0.00012))
+
+    for _, point, name, road_class in road_labels.values():
+        if point:
+            result["labels"].append([round(point[0], 5), round(point[1], 5), name, f"road-{road_class}"])
 
     output = Path(args.output)
     output.parent.mkdir(exist_ok=True)
