@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """Pre-render the complete offline map as SVG and add optional interaction."""
 
+import base64
 import html
+import io
 import json
 import math
 from pathlib import Path
 from urllib.parse import quote
+
+from PIL import Image, ImageDraw
 
 DATA = Path("data/schools.json")
 BASEMAP = Path("data/basemap.json")
@@ -13,6 +17,7 @@ ADDRESSES = Path("data/addresses.json")
 WEB_OUTPUTS = (Path("public/index.html"), Path("docs/index.html"))
 OFFLINE_OUTPUT = Path("public/map.html")
 ADDRESS_OUTPUTS = (Path("public/addresses.json"), Path("docs/addresses.json"))
+BASEMAP_IMAGE_OUTPUTS = (Path("public/basemap.webp"), Path("docs/basemap.webp"))
 SURVEY_ROOT = "2026\\UTBILDNING_Föräldrar och barn om förskolan"
 
 
@@ -35,26 +40,33 @@ def build():
             (max_lat - lat) / (max_lat - min_lat) * height,
         )
 
-    def line_path(points):
-        return " ".join(
-            f"{'M' if index == 0 else 'L'}{x:.2f},{y:.2f}"
-            for index, point in enumerate(points)
-            for x, y in (project(point),)
-        )
+    raster_scale = 2
+    image = Image.new("RGB", (round(width * raster_scale), round(height * raster_scale)), "#edf0e7")
+    draw = ImageDraw.Draw(image)
 
-    def polygon_path(rings):
-        return " ".join(f"{line_path(ring)} Z" for ring in rings)
+    def pixels(points):
+        return [(round(x * raster_scale), round(y * raster_scale)) for point in points for x, y in (project(point),)]
 
-    geometry = [f'<rect class="sea" width="{width:.2f}" height="{height:.2f}"/>']
-    geometry.extend(f'<path class="land" d="{polygon_path(polygon)}"/>' for polygon in basemap["land"])
-    geometry.extend(f'<path class="coastline" d="{line_path(line)}"/>' for line in basemap["coastline"])
-    geometry.extend(f'<path class="water" d="{polygon_path(polygon)}"/>' for polygon in basemap["water"])
-    geometry.extend(f'<path class="waterway" d="{line_path(line)}"/>' for line in basemap["waterways"])
+    for polygon in basemap["land"]:
+        draw.polygon(pixels(polygon[0]), fill="#f5f6f1")
+        for hole in polygon[1:]:
+            draw.polygon(pixels(hole), fill="#edf0e7")
+    for line in basemap["coastline"]:
+        draw.line(pixels(line), fill="#80b5c3", width=round(1.2 * raster_scale), joint="curve")
+    for polygon in basemap["water"]:
+        draw.polygon(pixels(polygon[0]), fill="#b8d7df", outline="#9bc5d0", width=max(1, round(.6 * raster_scale)))
+        for hole in polygon[1:]:
+            draw.polygon(pixels(hole), fill="#f5f6f1")
+    for line in basemap["waterways"]:
+        draw.line(pixels(line), fill="#82b9c7", width=round(2.4 * raster_scale), joint="curve")
+    road_styles = {"secondary": ("#d6d1c6", 1), "primary": ("#c7bdad", 1.4), "trunk": ("#d9b896", 1.8), "motorway": ("#d69b78", 2.2)}
     for road_class in ("secondary", "primary", "trunk", "motorway"):
-        geometry.extend(
-            f'<path class="road {road_class}" d="{line_path(line)}"/>'
-            for line in basemap["roads"][road_class]
-        )
+        color, stroke_width = road_styles[road_class]
+        for line in basemap["roads"][road_class]:
+            draw.line(pixels(line), fill=color, width=max(1, round(stroke_width * raster_scale)), joint="curve")
+    raster_buffer = io.BytesIO()
+    image.save(raster_buffer, format="WEBP", lossless=True, method=6)
+    raster_bytes = raster_buffer.getvalue()
 
     markers = []
     for index, school in enumerate(schools):
@@ -81,12 +93,13 @@ def build():
         .replace("MAP_MIN_LAT", repr(min_lat))
         .replace("MAP_MAX_LON", repr(max_lon))
         .replace("MAP_MAX_LAT", repr(max_lat))
-        .replace("BASEMAP_SVG", "".join(geometry))
         .replace("MARKERS_SVG", "".join(markers))
         .replace("SCHOOL_DATA", json.dumps(schools, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
     )
-    web_document = document.replace("ADDRESS_DATA", "null")
-    offline_document = document.replace("ADDRESS_DATA", json.dumps(addresses, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
+    web_basemap = f'<image class="basemap-image" href="basemap.webp" width="{width:.2f}" height="{height:.2f}"/>'
+    offline_basemap = f'<image class="basemap-image" href="data:image/webp;base64,{base64.b64encode(raster_bytes).decode()}" width="{width:.2f}" height="{height:.2f}"/>'
+    web_document = document.replace("BASEMAP_SVG", web_basemap).replace("ADDRESS_DATA", "null")
+    offline_document = document.replace("BASEMAP_SVG", offline_basemap).replace("ADDRESS_DATA", json.dumps(addresses, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
     for output in WEB_OUTPUTS:
         output.parent.mkdir(exist_ok=True)
         output.write_text(web_document, encoding="utf-8")
@@ -96,6 +109,9 @@ def build():
     for output in ADDRESS_OUTPUTS:
         output.parent.mkdir(exist_ok=True)
         output.write_text(address_payload, encoding="utf-8")
+    for output in BASEMAP_IMAGE_OUTPUTS:
+        output.parent.mkdir(exist_ok=True)
+        output.write_bytes(raster_bytes)
     print(f"Wrote {', '.join(map(str, WEB_OUTPUTS))} plus {OFFLINE_OUTPUT} with {len(schools)} pre-rendered schools.")
 
 
