@@ -2,7 +2,7 @@
 <html lang="sv">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
   <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
   <title>Förskolekollen Göteborg 2026</title>
   <style>
@@ -33,6 +33,9 @@
     const svg=document.getElementById('map');
     const popup=document.getElementById('popup');
     const originPopup=document.getElementById('origin-popup');
+    document.addEventListener('touchmove',event=>{if(event.touches.length>1)event.preventDefault()},{passive:false});
+    document.addEventListener('gesturestart',event=>event.preventDefault(),{passive:false});
+    document.addEventListener('gesturechange',event=>event.preventDefault(),{passive:false});
     const color=score=>score>=4.5?'#16834b':score>=4?'#dfa900':'#c9463d';
     const escapeHtml=value=>String(value).replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
 
